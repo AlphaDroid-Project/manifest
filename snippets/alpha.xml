@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="alpha"
+          fetch="https://github.com/alphadroid-project"
+          revision="alpha-13" />
+
+  <remote name="alpha-gitlab"
+          fetch="https://gitlab.com/elpaablo"
+          revision="alpha-13" />
+
+  <project path="art" name="art" remote="alpha" />
+  <project path="bionic" name="bionic" remote="alpha" />
+  <project path="build/make" name="build_make" remote="alpha">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="alpha" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="alpha" />
+  <project path="external/Camera" name="GrapheneOS/platform_external_Camera" remote="github" revision="13" />
+  <project path="external/vixl" name="external_vixl" remote="alpha" />
+
+  <project path="frameworks/base" name="frameworks_base" remote="alpha" />
+
+  <!--project path="hardware/qcom-caf/sdm845/audio" name="elpaablo/hardware_qcom_audio" remote="github" revision="sdm845-caf" />
+  <project path="hardware/qcom-caf/sdm845/display" name="elpaablo/hardware_qcom_display" remote="github" revision="sdm845-caf" />
+  <project path="hardware/qcom-caf/sdm845/media" name="elpaablo/hardware_qcom_media" remote="github" revision="sdm845-caf" /-->
+  <project path="hardware/xiaomi" name="lineageos/hardware_xiaomi" remote="github" revision="lineage-20" />
+
+  <project path="packages/apps/AlphaSettings" name="packages_apps_AlphaSettings" remote="alpha" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="alpha" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="alpha" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="alpha" />
+
+  <project path="system/memory/lmkd" name="system_memory_lmkd" remote="alpha" />
+
+  <project path="vendor/lineage" name="vendor_lineage" remote="alpha" />
+  <!--project path="vendor/gapps" name="vendor_gapps" remote="home-gitlab" revision="aosp-13" clone-depth="1" /-->
+  <project path="vendor/prebuilts" name="vendor_prebuilts" remote="alpha" />
+
+</manifest>

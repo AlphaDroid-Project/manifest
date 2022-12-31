@@ -2,15 +2,15 @@
 <manifest>
 
   <!-- crDroid additions -->
-  <project path="android" name="crdroidandroid/android" remote="crdroid" />
+  <!--project path="android" name="crdroidandroid/android" remote="crdroid" />
 
   <project path="art" name="crdroidandroid/android_art" groups="pdk" remote="crdroid" />
 
-  <project path="bionic" name="crdroidandroid/android_bionic" groups="pdk" remote="crdroid" />
+  <project path="bionic" name="crdroidandroid/android_bionic" groups="pdk" remote="crdroid" /-->
 
   <project path="bootable/recovery" name="crdroidandroid/android_bootable_recovery" groups="pdk" remote="crdroid" />
 
-  <project path="build/make" name="crdroidandroid/android_build" groups="pdk" remote="crdroid" >
+  <!--project path="build/make" name="crdroidandroid/android_build" groups="pdk" remote="crdroid" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -22,11 +22,11 @@
   <project path="build/soong" name="crdroidandroid/android_build_soong" groups="pdk,tradefed" remote="crdroid" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
+  </project-->
 
   <project path="device/lineage/sepolicy" name="crdroidandroid/android_device_crdroid_sepolicy" remote="crdroid" />
 
-  <project path="external/arm-optimized-routines" name="crdroidandroid/android_external_arm-optimized-routines" groups="pdk" remote="crdroid" />
+  <!--project path="external/arm-optimized-routines" name="crdroidandroid/android_external_arm-optimized-routines" groups="pdk" remote="crdroid" /-->
   <project path="external/colorkt" name="crdroidandroid/android_external_colorkt" remote="crdroid" />
   <project path="external/faceunlock" name="crdroidandroid/android_external_faceunlock" remote="crdroid-gitlab" />
   <project path="external/fastrpc" name="crdroidandroid/android_external_fastrpc" groups="pdk" remote="crdroid" />
@@ -42,7 +42,7 @@
   <project path="hardware/qcom-caf/sm8150/display" name="crdroidandroid/android_hardware_qcom_display" revision="13.0-caf-sm8150" />
 
   <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" groups="pdk" remote="crdroid" />
-  <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
+  <!--project path="frameworks/base" name="crdroidandroid/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="crdroid" /-->
   <project path="frameworks/libs/net" name="crdroidandroid/android_frameworks_libs_net" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="frameworks/libs/systemui" name="crdroidandroid/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" groups="pdk" remote="crdroid" />
@@ -61,13 +61,13 @@
   <project path="packages/apps/ExactCalculator" name="crdroidandroid/android_packages_apps_ExactCalculator" remote="crdroid" />
   <project path="packages/apps/FaceUnlockService" name="crdroidandroid/android_packages_apps_FaceUnlockService" remote="crdroid" />
   <project path="packages/apps/GameSpace" name="crdroidandroid/android_packages_apps_GameSpace" groups="pdk-fs" remote="crdroid" />
-  <project path="packages/apps/Launcher3" name="crdroidandroid/android_packages_apps_Launcher3" remote="crdroid" />
+  <!--project path="packages/apps/Launcher3" name="crdroidandroid/android_packages_apps_Launcher3" remote="crdroid" /-->
   <project path="packages/apps/LineageParts" name="crdroidandroid/android_packages_apps_LineageParts" remote="crdroid" />
   <project path="packages/apps/Matlog" name="crdroidandroid/android_packages_apps_Matlog" remote="crdroid" />
   <project path="packages/apps/Messaging" name="crdroidandroid/android_packages_apps_Messaging" groups="pdk-fs" remote="crdroid" />
   <project path="packages/apps/Nfc" name="crdroidandroid/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="crdroid" />
   <project path="packages/apps/ParallelSpace" name="crdroidandroid/android_packages_apps_ParallelSpace" remote="crdroid" />
-  <project path="packages/apps/Settings" name="crdroidandroid/android_packages_apps_Settings" groups="pdk-fs" remote="crdroid" />
+  <!--project path="packages/apps/Settings" name="crdroidandroid/android_packages_apps_Settings" groups="pdk-fs" remote="crdroid" /-->
   <project path="packages/apps/SetupWizard" name="crdroidandroid/android_packages_apps_SetupWizard" remote="crdroid" />
   <project path="packages/apps/SimpleDeviceConfig" name="crdroidandroid/android_packages_apps_SimpleDeviceConfig" remote="crdroid" />
   <project path="packages/apps/ThemePicker" name="crdroidandroid/android_packages_apps_ThemePicker" groups="pdk-fs" remote="crdroid" />
@@ -84,14 +84,14 @@
   <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r475365b" remote="crdroid-gitlab" />
 
   <project path="system/core" name="crdroidandroid/android_system_core" groups="pdk" remote="crdroid" />
-  <project path="system/memory/lmkd" name="crdroidandroid/android_system_memory_lmkd" groups="pdk" remote="crdroid" />
+  <!--project path="system/memory/lmkd" name="crdroidandroid/android_system_memory_lmkd" groups="pdk" remote="crdroid" /-->
   <project path="system/netd" name="crdroidandroid/android_system_netd" groups="pdk" remote="crdroid" />
   <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" groups="pdk" remote="crdroid" />
   <project path="system/update_engine" name="crdroidandroid/android_system_update_engine" groups="pdk" remote="crdroid" />
 
   <project path="vendor/addons" name="crdroidandroid/android_vendor_addons" remote="crdroid" />
   <project path="vendor/crDroidOTA" name="crdroidandroid/android_vendor_crDroidOTA" remote="crdroid" />
-  <project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" />
+  <!--project path="vendor/lineage" name="crdroidandroid/android_vendor_crdroid" remote="crdroid" /-->
 
   <project path="vendor/nxp/nfc" name="crdroidandroid/android_vendor_nxp_nfc" remote="crdroid" />
   <project path="vendor/nxp/secure_element" name="crdroidandroid/android_vendor_nxp_secure_element" remote="crdroid" />
