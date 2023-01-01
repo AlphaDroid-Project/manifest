@@ -5,8 +5,10 @@
           fetch="https://github.com/alphadroid-project"
           revision="alpha-13" />
 
-  <remote name="alpha-gitlab"
-          fetch="https://gitlab.com/elpaablo"
+  <remote name="gitlab"
+          fetch="https://gitlab.com/"
+          sync-c="true"
+          sync-j="4"
           revision="alpha-13" />
 
   <project path="art" name="art" remote="alpha" />
@@ -45,7 +47,7 @@
   <project path="system/memory/lmkd" name="system_memory_lmkd" remote="alpha" />
 
   <project path="vendor/lineage" name="vendor_lineage" remote="alpha" />
-  <!--project path="vendor/gapps" name="vendor_gapps" remote="home-gitlab" revision="aosp-13" clone-depth="1" /-->
+  <project path="vendor/gapps" name="elpaablo/vendor_gapps" remote="gitlab" clone-depth="1" />
   <project path="vendor/prebuilts" name="vendor_prebuilts" remote="alpha" />
 
 </manifest>
