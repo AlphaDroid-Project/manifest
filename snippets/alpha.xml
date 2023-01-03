@@ -47,6 +47,7 @@
   <project path="packages/apps/RepainterServicePriv" name="packages_apps_RepainterServicePriv" remote="alpha" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="alpha" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="alpha" />
+  <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="alpha" />
 
   <project path="system/memory/lmkd" name="system_memory_lmkd" remote="alpha" />
 
