@@ -15,6 +15,11 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-13.0.0_r16" />
 
+  <remote  name="aosp_master"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com"
+           revision="refs/heads/master" />
+
   <default revision="refs/heads/lineage-20.0"
            remote="github"
            sync-c="true"
