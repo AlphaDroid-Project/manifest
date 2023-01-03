@@ -32,6 +32,7 @@
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="alpha" />
   <project path="external/Camera" name="GrapheneOS/platform_external_Camera" remote="github" revision="13" />
   <project path="external/vixl" name="external_vixl" remote="alpha" />
+  <project path="external/vulkan-headers" name="external_vulkan-headers" remote="alpha" />
 
   <project path="frameworks/base" name="frameworks_base" remote="alpha" />
 
