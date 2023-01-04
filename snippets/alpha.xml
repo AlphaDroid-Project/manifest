@@ -41,7 +41,7 @@
   <project path="hardware/qcom-caf/sdm845/media" name="elpaablo/hardware_qcom_media" remote="github" revision="sdm845-caf" /-->
   <project path="hardware/xiaomi" name="lineageos/android_hardware_xiaomi" remote="github" revision="lineage-20" />
 
-  <project path="libcore" name="libcore" groups="pdk" remote="alpha" />
+  <project path="libcore" name="libcore" remote="alpha" />
 
   <project path="packages/apps/AlphaSettings" name="packages_apps_AlphaSettings" remote="alpha" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="alpha" />
@@ -51,6 +51,7 @@
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="alpha" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="alpha" />
 
+  <project path="system/core" name="system_core" remote="alpha" />
   <project path="system/memory/lmkd" name="system_memory_lmkd" remote="alpha" />
 
   <project path="vendor/addons" name="vendor_addons" remote="alpha" />
