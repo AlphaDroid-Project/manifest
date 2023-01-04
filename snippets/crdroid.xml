@@ -49,7 +49,7 @@
   <project path="frameworks/opt/telephony" name="crdroidandroid/android_frameworks_opt_telephony" groups="pdk" remote="crdroid" />
   <project path="frameworks/opt/net/ims" name="crdroidandroid/android_frameworks_opt_net_ims" groups="pdk" remote="crdroid" />
 
-  <project path="libcore" name="crdroidandroid/android_libcore" groups="pdk" remote="crdroid" />
+  <!--project path="libcore" name="crdroidandroid/android_libcore" groups="pdk" remote="crdroid" /-->
 
   <project path="lineage-sdk" name="crdroidandroid/android_lineage-sdk" remote="crdroid" />
 
