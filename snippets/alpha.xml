@@ -42,6 +42,7 @@
   <project path="hardware/xiaomi" name="lineageos/android_hardware_xiaomi" remote="github" revision="lineage-20" />
 
   <project path="libcore" name="libcore" remote="alpha" />
+  <project path="lineage-sdk" name="lineage-sdk" remote="alpha" />
 
   <project path="packages/apps/AlphaSettings" name="packages_apps_AlphaSettings" remote="alpha" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="alpha" />
