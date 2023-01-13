@@ -9,7 +9,7 @@
 ** LineageOS (https://github.com/LineageOS)<br/>
 
 <p>* Performance tweaks:<br/>
-** RiceDroid (https://github.com/RiceDroid)<br/>
+** RiceDroidOSS (https://github.com/RiceDroidOSS)<br/>
 ** ProtonAOSP (https://github.com/ProtonAOSP)</p>
 
 <p>* UI:<br/>
@@ -18,8 +18,9 @@
 ** NusantaraProject (https://github.com/NusantaraProject-ROM/)</p>
 
 <p>* Extra features:<br/>
-** RiceDroid (https://github.com/RiceDroid)<br/>
+** RiceDroidOSS (https://github.com/RiceDroidOSS)<br/>
 ** Spark OS (https://github.com/spark-rom)<br/>
+** VoidUI (https://github.com/voidui-tiramisu)<br/>
 
 <p>* Alpha logo:<br/>
 ** berkahjaya (https://stock.adobe.com/pt/contributor/210355228/berkahjaya?load_type=author&prev_url=detail)<br/>
