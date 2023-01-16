@@ -34,7 +34,9 @@
   <project path="external/vixl" name="external_vixl" remote="alpha" />
   <project path="external/vulkan-headers" name="external_vulkan-headers" remote="alpha" />
 
+  <project path="frameworks/av" name="frameworks_av" remote="alpha" />
   <project path="frameworks/base" name="frameworks_base" remote="alpha" />
+  <project path="frameworks/native" name="frameworks_native" remote="alpha" />
 
   <project path="hardware/qcom-caf/sm8250/audio" name="VoidUI-Tiramisu/hardware_qcom-caf_sm8250_audio" remote="github" revision="aosp-13" />
   <project path="hardware/qcom-caf/sm8250/display" name="VoidUI-Tiramisu/hardware_qcom-caf_sm8250_display" remote="github" revision="aosp-13" />
