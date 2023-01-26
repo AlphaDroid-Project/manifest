@@ -37,6 +37,7 @@
 
   <project path="frameworks/av" name="frameworks_av" remote="alpha" />
   <project path="frameworks/base" name="frameworks_base" remote="alpha" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="alpha" />
   <project path="frameworks/native" name="frameworks_native" remote="alpha" />
 
   <project path="hardware/qcom-caf/sm8250/audio" name="VoidUI-Tiramisu/hardware_qcom-caf_sm8250_audio" remote="github" revision="aosp-13" />
