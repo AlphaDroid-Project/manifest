@@ -4,6 +4,10 @@
   <remote name="alpha"
           fetch="https://github.com/alphadroid-project"
           revision="alpha-13" />
+  
+  <remote name="alpha-devices"
+          fetch="https://github.com/AlphaDroid-devices"
+          revision="alpha-13" />
 
   <remote name="gitlab"
           fetch="https://gitlab.com/"
@@ -65,5 +69,6 @@
   <project path="vendor/gms" name="elpaablo/vendor_gapps" remote="gitlab" clone-depth="1" />
   <project path="vendor/OTA" name="alphadroid-devices/OTA" remote="github" revision="alpha-13" />
   <project path="vendor/prebuilts" name="vendor_prebuilts" remote="alpha" />
+  <project path="vendor/ota" name="vendor_ota" remote="alpha-devices" />
 
 </manifest>
