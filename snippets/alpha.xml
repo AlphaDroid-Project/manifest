@@ -51,7 +51,7 @@
   <project path="packages/apps/AlphaSettings" name="packages_apps_AlphaSettings" remote="alpha" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="alpha" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="alpha" />
-  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" remote="alpha" />
+  <project path="packages/apps/QuickSearchBox" name="packages_apps_QuickSearchBox" remote="alpha" />
   <project path="packages/apps/RepainterServicePriv" name="packages_apps_RepainterServicePriv" remote="alpha" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="alpha" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="alpha" />
