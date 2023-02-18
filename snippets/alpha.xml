@@ -40,6 +40,7 @@
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="alpha" />
   <project path="frameworks/native" name="frameworks_native" remote="alpha" />
 
+  <project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom-caf_sdm845_display" remote="alpha" />
   <project path="hardware/qcom-caf/sm8250/audio" name="VoidUI-Tiramisu/hardware_qcom-caf_sm8250_audio" remote="github" revision="aosp-13" />
   <project path="hardware/qcom-caf/sm8250/display" name="VoidUI-Tiramisu/hardware_qcom-caf_sm8250_display" remote="github" revision="aosp-13" />
   <project path="hardware/qcom-caf/sm8250/media" name="VoidUI-Tiramisu/hardware_qcom-caf_sm8250_media" remote="github" revision="aosp-13" />
