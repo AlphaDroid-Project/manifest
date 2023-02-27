@@ -58,9 +58,9 @@
   <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" groups="pdk" remote="crdroid" />
   <project path="system/update_engine" name="crdroidandroid/android_system_update_engine" groups="pdk" remote="crdroid" />
 
-  <project path="vendor/nxp/nfc" name="crdroidandroid/android_vendor_nxp_nfc" remote="crdroid" />
+  <!--project path="vendor/nxp/nfc" name="crdroidandroid/android_vendor_nxp_nfc" remote="crdroid" />
   <project path="vendor/nxp/secure_element" name="crdroidandroid/android_vendor_nxp_secure_element" remote="crdroid" />
-  <project path="vendor/nxp/secure_element_extns" name="crdroidandroid/android_vendor_nxp_secure_element_extns" remote="crdroid" />
+  <project path="vendor/nxp/secure_element_extns" name="crdroidandroid/android_vendor_nxp_secure_element_extns" remote="crdroid" /-->
   <project path="vendor/nxp/opensource/interfaces/nfc" name="crdroidandroid/android_vendor_nxp_interfaces_opensource_nfc" remote="crdroid" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="crdroidandroid/android_vendor_nxp_opensource_external_libnfc-nci" remote="crdroid" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="crdroidandroid/android_vendor_nxp_opensource_frameworks" remote="crdroid" />
