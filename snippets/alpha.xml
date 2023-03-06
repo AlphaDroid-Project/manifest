@@ -39,6 +39,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="alpha" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="alpha" />
   <project path="frameworks/native" name="frameworks_native" remote="alpha" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="alpha" />
 
   <project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom-caf_sdm845_display" remote="alpha" />
   <project path="hardware/xiaomi" name="lineageos/android_hardware_xiaomi" remote="github" revision="lineage-20" />
