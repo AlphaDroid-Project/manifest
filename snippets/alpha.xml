@@ -57,6 +57,7 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="alpha" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="alpha" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="alpha" />
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="alpha" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="alpha" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="alpha" />
 
