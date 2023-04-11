@@ -60,6 +60,7 @@
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="alpha" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="alpha" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="alpha" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="alpha" />
 
   <project path="system/core" name="system_core" remote="alpha" />
   <project path="system/memory/lmkd" name="system_memory_lmkd" remote="alpha" />
