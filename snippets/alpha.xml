@@ -48,7 +48,7 @@
   <project path="lineage-sdk" name="lineage-sdk" remote="alpha" />
 
   <project path="packages/apps/AlphaSettings" name="packages_apps_AlphaSettings" remote="alpha" />
-  <project path="packages/apps/Backgrounds" name="packages_apps_Backgrounds" remote="alpha" />
+  <project path="packages/apps/AlphaWallpapers" name="packages_apps_AlphaWallpapers" remote="alpha" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="alpha" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="alpha" />
   <project path="packages/apps/RepainterServicePriv" name="packages_apps_RepainterServicePriv" remote="alpha" />
