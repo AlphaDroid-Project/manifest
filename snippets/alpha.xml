@@ -65,6 +65,7 @@
 
   <project path="system/core" name="system_core" remote="alpha" />
   <project path="system/memory/lmkd" name="system_memory_lmkd" remote="alpha" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="alpha" />
 
   <project path="vendor/addons" name="vendor_addons" remote="alpha" />
   <project path="vendor/lineage" name="vendor_lineage" remote="alpha" />
