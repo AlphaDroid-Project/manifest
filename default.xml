@@ -1157,4 +1157,5 @@
   <include name="snippets/lineage.xml" />
   <include name="snippets/alpha.xml" />
   <!--<include name="snippets/pixel.xml" />-->
+  <include name="snippets/pixel-caf.xml" />
 </manifest>
