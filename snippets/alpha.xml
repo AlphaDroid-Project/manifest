@@ -35,6 +35,7 @@
   <project path="external/elfutils" name="external_elfutils" remote="alpha" />
   <project path="external/vixl" name="external_vixl" remote="alpha" />
   <project path="external/vulkan-headers" name="external_vulkan-headers" remote="alpha" />
+  <project path="external/zlib" name="external_zlib" remote="alpha" />
 
   <project path="frameworks/av" name="frameworks_av" remote="alpha" />
   <project path="frameworks/base" name="frameworks_base" remote="alpha" />
