@@ -58,6 +58,7 @@
   <project path="packages/apps/GmsCompat" name="packages_apps_GmsCompat" remote="alpha" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="alpha" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="alpha" />
+  <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="alpha" />
   <project path="packages/apps/RepainterServicePriv" name="packages_apps_RepainterServicePriv" remote="alpha" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="alpha" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="alpha" />
