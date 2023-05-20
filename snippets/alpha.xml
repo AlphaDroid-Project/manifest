@@ -81,6 +81,7 @@
   <project path="vendor/addons" name="vendor_addons" remote="alpha" />
   <project path="vendor/lineage" name="vendor_lineage" remote="alpha" />
   <project path="vendor/gms" name="elpaablo/vendor_gapps" remote="gitlab" clone-depth="1" />
+  <project path="vendor/google/interfaces" name="vendor_google_interfaces" remote="alpha" />
   <project path="vendor/OTA" name="alphadroid-devices/OTA" remote="github" revision="alpha-13" />
 
 </manifest>
