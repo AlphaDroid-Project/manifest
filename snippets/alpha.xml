@@ -45,6 +45,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="alpha" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="alpha" />
 
+  <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" remote="alpha" />
   <project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom-caf_sdm845_display" remote="alpha" />
   <project path="hardware/xiaomi" name="lineageos/android_hardware_xiaomi" remote="github" revision="lineage-20" />
 
