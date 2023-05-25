@@ -1,6 +1,6 @@
 <p><b>AlphaDroid</b></p>
 
-<p>Alpha is a custom ROM for Android, based on crDroid, with a new look and some extra features and optimizations.Memory optimizations and performance tweaks are ported from RiceDroid and ProtonAOSP. Extra features are picked from other custom ROMs and adapted to our needs or implemented by us.</p>
+<p>AlphaDroid is a custom ROM for Android, based on crDroid, with a new look and some extra features and optimizations. Memory optimizations and performance tweaks come mostly from RisingTechOSS and ProtonAOSP. Security and privacy addons were ported from GrapheneOS. Other extra features are picked from other custom ROMs and adapted to our needs or implemented by us.</p>
 
 <p>Credits:</p>
 
@@ -9,18 +9,22 @@
 ** LineageOS (https://github.com/LineageOS)<br/>
 
 <p>* Performance tweaks:<br/>
-** RiceDroidOSS (https://github.com/RiceDroidOSS)<br/>
+** RisingTechOSS (https://github.com/RisingTechOSS)<br/>
 ** ProtonAOSP (https://github.com/ProtonAOSP)</p>
+
+<p>* Security and privacy:<br/>
+** GrapheneOS (https://github.com/grapheneos)<br/>
+** VoltageOS (https://github.com/voltageos)</p>
 
 <p>* UI:<br/>
 ** dotOS (https://github.com/dotos)<br/>
 ** xdroidOSS (https://github.com/xdroid-oss)<br/>
-** NusantaraProject (https://github.com/NusantaraProject-ROM/)</br>
-** Bootleggers (https://github.com/BootleggersROM)</p>
+** NusantaraProject (https://github.com/nusantaraproject-rom/)</br>
+** Bootleggers (https://github.com/bootleggersrom)</p>
 
-<p>* Extra features:<br/>
-** RiceDroidOSS (https://github.com/RiceDroidOSS)<br/>
-** Spark OS (https://github.com/spark-rom)<br/>
+<p>* Other features:<br/>
+** RisingTechOSS (https://github.com/risingtechoss)<br/>
+** SparkOS (https://github.com/spark-rom)<br/>
 ** VoidUI (https://github.com/voidui-tiramisu)<br/>
 ** BananaDroid (https://github.com/bananadroid)<br/>
 
@@ -48,6 +52,10 @@ repo sync
 $ . build/envsetup.sh
 
 # Build the code
+$ lunch lineage_[device_name]-[build_variant]
+$ make bacon
+
+# Or just
 $ brunch [device_name]
 ```
 
