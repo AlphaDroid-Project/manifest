@@ -32,7 +32,7 @@
 
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="alpha" />
   <!--project path="external/Camera" name="GrapheneOS/platform_external_Camera" remote="github" revision="13" /-->
-  <project path="external/GmsCompatConfig" name="external_GmsCompatConfig" remote="alpha" />
+  <!--project path="external/GmsCompatConfig" name="external_GmsCompatConfig" remote="alpha" /-->
   <project path="external/elfutils" name="external_elfutils" remote="alpha" />
   <project path="external/vixl" name="external_vixl" remote="alpha" />
   <project path="external/vulkan-headers" name="external_vulkan-headers" remote="alpha" />
@@ -56,12 +56,13 @@
   <project path="packages/apps/AlphaWallpapers" name="packages_apps_AlphaWallpapers" remote="alpha" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="alpha" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="alpha" />
-  <project path="packages/apps/GmsCompat" name="packages_apps_GmsCompat" remote="alpha" />
+  <!--project path="packages/apps/GmsCompat" name="packages_apps_GmsCompat" remote="alpha" /-->
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="alpha" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="alpha" />
   <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="alpha" />
   <project path="packages/apps/RepainterServicePriv" name="packages_apps_RepainterServicePriv" remote="alpha" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="alpha" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="alpha" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="alpha" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="alpha" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="alpha" />
@@ -72,7 +73,7 @@
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="alpha" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="alpha" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="alpha" />
-  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="alpha" />
+  <!--project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="alpha" /-->
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="alpha" />
 
   <project path="system/core" name="system_core" remote="alpha" />
