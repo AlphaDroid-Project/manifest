@@ -51,12 +51,12 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="alpha" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="alpha" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" groups="pdk-fs" remote="alpha" />
-  <!--<project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk" remote="alpha" />
-  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="alpha" />
-  <project path="packages/modules/Permission" name="packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="alpha" />
-  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="alpha" />
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="alpha" />
-  -->
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk" remote="alpha" />
+  <!--<project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="alpha" />-->
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="alpha"/>
+  <!--<project path="packages/modules/Permission" name="packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="alpha" />-->
+  <!--<project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="alpha" />-->
+  <!--<project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="alpha" />-->
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="alpha" />
   <!--<project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="alpha" />-->
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="alpha" />
