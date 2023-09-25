@@ -3,7 +3,6 @@
 
   <project path="hardware/qcom-caf/bengal/audio" name="hardware_qcom-caf_bengal_audio" remote="pixel" />
   <project path="hardware/qcom-caf/bengal/display" name="hardware_qcom-caf_bengal_display" remote="pixel" />
-  <project path="hardware/qcom-caf/bengal/gps" name="hardware_qcom-caf_bengal_gps" remote="pixel" />
   <project path="hardware/qcom-caf/bengal/media" name="hardware_qcom-caf_bengal_media" remote="pixel" />
 
 </manifest>
