@@ -26,7 +26,6 @@
 
 <p>* Alpha logo:<br/>
 ** berkahjaya (<a href="https://stock.adobe.com/pt/contributor/210355228/berkahjaya?load_type=author&prev_url=detail">https://stock.adobe.com</a>)<br/>
-** nexusby (<a href="https://stock.adobe.com/pt/search?creator_id=204357292&filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Avideo%5D=1&filters%5Bcontent_type%3Atemplate%5D=1&filters%5Bcontent_type%3A3d%5D=1&filters%5Bfetch_excluded_assets%5D=1&filters%5Bcontent_type%3Aimage%5D=1&order=relevance&safe_search=1&k=alpha&search_page=1&search_type=usertyped&acp=&aco=alpha&get_facets=0">https://stock.adobe.com</a>)</p>
 
 
 ### Sync ###
@@ -34,7 +33,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/alphadroid-project/manifest -b alpha-13 --git-lfs
+repo init -u https://github.com/alphadroid-project/manifest -b alpha-14 --git-lfs
 
 # Sync
 repo sync

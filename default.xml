@@ -20,18 +20,6 @@
            sync-c="true"
            sync-j="4" />
 
-  <remote  name="crdroid"
-           fetch="https://github.com/"
-           sync-c="true"
-           sync-j="4"
-           revision="refs/heads/13.0" />
-
-  <remote  name="crdroid-gitlab"
-           fetch="https://gitlab.com/"
-           sync-c="true"
-           sync-j="4"
-           revision="refs/heads/13.0" />
-
   <remote name="pixel"
           fetch="https://github.com/PixelExperience"
           revision="thirteen"
@@ -39,13 +27,13 @@
 
   <remote name="alpha"
           fetch="https://github.com/alphadroid-project"
-          revision="alpha-13" />
+          revision="alpha-14" />
 
   <remote name="gitlab"
           fetch="https://gitlab.com/"
           sync-c="true"
           sync-j="4"
-          revision="alpha-13" />
+          revision="alpha-14" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r75" />
   <contactinfo bugurl="go/repo-bug" />
@@ -1157,9 +1145,7 @@
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" remote="aosp" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
 
-  <include name="snippets/crdroid.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/alpha.xml" />
-  <!--<include name="snippets/pixel.xml" />-->
-  <include name="snippets/pixel-caf.xml" />
+  <include name="snippets/pixel.xml" />
 </manifest>
