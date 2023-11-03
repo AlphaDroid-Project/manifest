@@ -33,6 +33,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="external/cronet" name="external_cronet" groups="pdk" remote="alpha"/>
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="alpha" />
   <!--<project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom-caf_sdm845_display" groups="qcom" remote="alpha" />-->
   <project path="lineage-sdk" name="lineage-sdk" remote="alpha" />
