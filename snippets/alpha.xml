@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+
+  <remote  name="alpha"
+           fetch="https://github.com/alphadroid-project"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/alpha-14-wip" />
+
+  <remote  name="alpha-gitlab"
+           fetch="https://gitlab.com/elpaablo"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/alpha-13" />
+
 <!--  <project path="art" name="art" groups="pdk" remote="alpha" />
   <project path="bionic" name="bionic" groups="pdk" remote="alpha" />
 
@@ -33,7 +46,7 @@
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="alpha" />
   <project path="system/core" name="system_core" groups="pdk" remote="alpha" />-->
 
-  <!--<project path="vendor/addons" name="vendor_addons" remote="alpha" />-->
+  <project path="vendor/addons" name="vendor_addons" remote="alpha" />
   <project path="vendor/lineage" name="vendor_lineage" remote="alpha" />
   <!--<project path="vendor/gms" name="elpaablo/vendor_gapps" remote="gitlab" clone-depth="1" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="alpha" />-->
