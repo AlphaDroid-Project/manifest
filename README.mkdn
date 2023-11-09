@@ -5,29 +5,28 @@
 <p>Credits:</p>
 
 <p>* Base:<br/>
-** crDroid Android (https://github.com/crDroidAndroid)<br/>
-** LineageOS (https://github.com/LineageOS)<br/>
+** <a href="https://github.com/crDroidAndroid">crDroid Android</a><br/>
+** <a href="https://github.com/LineageOS">LineageOS</a><br/>
 
 <p>* Performance tweaks:<br/>
-** RisingTechOSS (https://github.com/RisingTechOSS)<br/>
-** ProtonAOSP (https://github.com/ProtonAOSP)</p>
+** <a href="https://github.com/RisingTechOSS">RisingTechOSS</a><br/>
+** <a href="https://github.com/ProtonAOSP">ProtonAOSP</a></p>
 
 <p>* UI:<br/>
-** dotOS (https://github.com/dotos)<br/>
-** xdroidOSS (https://github.com/xdroid-oss)<br/>
-** NusantaraProject (https://github.com/nusantaraproject-rom/)</br>
-** Bootleggers (https://github.com/bootleggersrom)</p>
+** <a href="https://github.com/dotos">dotOS</a><br/>
+** <a href="https://github.com/xdroid-oss">xdroidOSS</a><br/>
+** <a href="https://github.com/nusantaraproject-rom">NusantaraProject</a></br>
+** <a href="https://github.com/bootleggersrom">Bootleggers</a></p>
 
 <p>* Other features:<br/>
-** RisingTechOSS (https://github.com/risingtechoss)<br/>
-** SparkOS (https://github.com/spark-rom)<br/>
-** VoidUI (https://github.com/voidui-tiramisu)<br/>
-** BananaDroid (https://github.com/bananadroid)<br/>
+** <a href="https://github.com/risingtechoss">RisingTechOSS</a><br/>
+** <a href="https://github.com/spark-rom">SparkOS</a><br/>
+** <a href="https://github.com/pixelexperience">PixelExperience</a><br/>
+** <a href="https://github.com/DerpFest-AOSP">DerpFest-AOSP</a><br/>
+** <a href="https://github.com/bananadroid">BananaDroid</a><br/>
 
 <p>* Alpha logo:<br/>
-** berkahjaya (<a href="https://stock.adobe.com/pt/contributor/210355228/berkahjaya?load_type=author&prev_url=detail">https://stock.adobe.com</a>)<br/>
-** nexusby (<a href="https://stock.adobe.com/pt/search?creator_id=204357292&filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Avideo%5D=1&filters%5Bcontent_type%3Atemplate%5D=1&filters%5Bcontent_type%3A3d%5D=1&filters%5Bfetch_excluded_assets%5D=1&filters%5Bcontent_type%3Aimage%5D=1&order=relevance&safe_search=1&k=alpha&search_page=1&search_type=usertyped&acp=&aco=alpha&get_facets=0">https://stock.adobe.com</a>)</p>
-
+** <a href="https://github.com/naokoshoto">naokoshoto</a></p>
 
 ### Sync ###
 
