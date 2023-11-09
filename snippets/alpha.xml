@@ -9,10 +9,10 @@
            revision="refs/heads/alpha-14-wip" />
 
   <remote  name="alpha-gitlab"
-           fetch="https://gitlab.com/elpaablo"
+           fetch="https://gitlab.com/alphadroid-project"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/alpha-13" />
+           revision="refs/heads/alpha-14" />
 
 <!--  <project path="art" name="art" groups="pdk" remote="alpha" />
   <project path="bionic" name="bionic" groups="pdk" remote="alpha" />
@@ -49,7 +49,7 @@
 
   <project path="vendor/addons" name="vendor_addons" remote="alpha" />
   <project path="vendor/lineage" name="vendor_lineage" remote="alpha" />
-  <!--<project path="vendor/gms" name="elpaablo/vendor_gapps" remote="gitlab" clone-depth="1" />
-  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="alpha" />-->
+  <project path="vendor/gms" name="vendor_gms" remote="alpha-gitlab" clone-depth="1" />
+  <!--<project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="alpha" />-->
   <project path="vendor/OTA" name="alphadroid-devices/OTA" remote="github" revision="alpha-13" />
 </manifest>
