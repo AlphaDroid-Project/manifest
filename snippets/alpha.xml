@@ -16,9 +16,9 @@
 
 <!--  <project path="art" name="art" groups="pdk" remote="alpha" />
   <project path="bionic" name="bionic" groups="pdk" remote="alpha" />
-
+  -->
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="alpha" />
--->
+
   <project path="build/make" name="build_make" groups="pdk" remote="alpha">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
