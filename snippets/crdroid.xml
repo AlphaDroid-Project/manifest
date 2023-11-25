@@ -76,4 +76,5 @@
 
   <project path="tools/extract-utils" name="crdroidandroid/android_tools_extract-utils" remote="crdroid" />
 
+  <project path="vendor/pixel-framework" name="crdroidandroid/android_vendor_pixel-framework" remote="crdroid" />
 </manifest>
