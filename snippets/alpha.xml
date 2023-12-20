@@ -6,7 +6,7 @@
            fetch="https://github.com/alphadroid-project"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/alpha-14-wip" />
+           revision="refs/heads/alpha-14" />
 
   <remote  name="alpha-gitlab"
            fetch="https://gitlab.com/alphadroid-project"
