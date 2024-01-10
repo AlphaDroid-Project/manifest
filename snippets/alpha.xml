@@ -35,7 +35,6 @@
 
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="alpha" />
   <project path="device/qcom/sepolicy_vndr/legacy-um" name="device_qcom_sepolicy_vndr" groups="qcom,lahaina" revision="lineage-21.0-legacy-um" remote="alpha" />
-  <project path="external/cronet" name="external_cronet" groups="pdk" remote="alpha"/>
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="alpha" />
   <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="alpha" />
   <!--<project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom-caf_sdm845_display" groups="qcom" remote="alpha" />-->
