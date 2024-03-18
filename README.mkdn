@@ -1,6 +1,6 @@
 <p><b>AlphaDroid</b></p>
 
-<p>AlphaDroid is a custom ROM for Android, based on crDroid, with a new look and some extra features and optimizations. Memory optimizations and performance tweaks come mostly from RisingTechOSS and ProtonAOSP. Other extra features are picked from other custom ROMs and adapted to our needs or implemented by us.</p>
+<p>AlphaDroid is a custom ROM for Android, based on crDroid, with a new look and some extra features and optimizations. Extra features are picked from other custom ROMs and adapted to our needs or implemented by us.</p>
 
 <p>Credits:</p>
 
@@ -8,24 +8,21 @@
 ** <a href="https://github.com/crDroidAndroid">crDroid Android</a><br/>
 ** <a href="https://github.com/LineageOS">LineageOS</a><br/>
 
-<p>* Performance tweaks:<br/>
-** <a href="https://github.com/RisingTechOSS">RisingTechOSS</a><br/>
-** <a href="https://github.com/ProtonAOSP">ProtonAOSP</a></p>
-
 <p>* UI:<br/>
 ** <a href="https://github.com/dotos">dotOS</a><br/>
 ** <a href="https://github.com/xdroid-oss">xdroidOSS</a><br/>
 ** <a href="https://github.com/nusantaraproject-rom">NusantaraProject</a></br>
 ** <a href="https://github.com/bootleggersrom">Bootleggers</a></p>
 
-<p>* Other features:<br/>
+<p>* Extra features:<br/>
 ** <a href="https://github.com/risingtechoss">RisingTechOSS</a><br/>
 ** <a href="https://github.com/spark-rom">SparkOS</a><br/>
 ** <a href="https://github.com/pixelexperience">PixelExperience</a><br/>
 ** <a href="https://github.com/DerpFest-AOSP">DerpFest-AOSP</a><br/>
 ** <a href="https://github.com/bananadroid">BananaDroid</a><br/>
+** <a href="https://github.com/theParasiteProject">TheParasiteProject</a><br/>
 
-<p>* Alpha logo:<br/>
+<p>* Alpha logo and banners:<br/>
 ** <a href="https://github.com/naokoshoto">naokoshoto</a></p>
 
 ### Sync ###
