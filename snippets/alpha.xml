@@ -48,6 +48,7 @@
   <!--<project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="alpha" />-->
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="alpha" />
   <!--<project path="system/core" name="system_core" groups="pdk" remote="alpha" />-->
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="alpha" />
 
   <project path="vendor/addons" name="vendor_addons" remote="alpha" />
   <project path="vendor/lineage" name="vendor_lineage" remote="alpha" />
