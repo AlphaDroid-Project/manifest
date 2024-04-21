@@ -6,13 +6,13 @@
            fetch="https://github.com/alphadroid-project"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/alpha-14" />
+           revision="refs/heads/alpha-14-wip" />
 
   <remote  name="alpha-ssh"
            fetch="git@github.com:alphadroid-project"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/alpha-14" />
+           revision="refs/heads/alpha-14-wip" />
 
   <remote  name="alpha-gitlab"
            fetch="https://gitlab.com/alphadroid-project"
