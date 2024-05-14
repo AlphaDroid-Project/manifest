@@ -24,10 +24,10 @@
   <!-- AOSP Projects -->
 
   <project path="build/orchestrator" name="platform/build/orchestrator" groups="pdk" remote="aosp" />
-  <!--<project path="build/bazel" name="platform/build/bazel" groups="pdk" remote="aosp" >
-    <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
-    <linkfile src="bazel.BUILD" dest="BUILD" />
-  </project>-->
+  <project path="build/bazel" name="platform/build/bazel" groups="pdk" remote="aosp" >
+    <linkfile dest="WORKSPACE" src="bazel.WORKSPACE" />
+    <linkfile dest="BUILD" src="bazel.BUILD" />
+  </project>
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="pdk" remote="aosp" />
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/pesto" name="platform/build/pesto" groups="pdk" remote="aosp" />
@@ -279,7 +279,7 @@
   <project path="external/libevent" name="platform/external/libevent" groups="pdk" remote="aosp" />
   <project path="external/libexif" name="platform/external/libexif" groups="pdk" remote="aosp" />
   <project path="external/libffi" name="platform/external/libffi" groups="pdk" remote="aosp" />
-  <project path="external/libfuse" name="platform/external/libfuse" groups="pdk" remote="aosp" />
+  <!--<project path="external/libfuse" name="platform/external/libfuse" groups="pdk" remote="aosp" />-->
   <project path="external/libgav1" name="platform/external/libgav1" groups="pdk" remote="aosp" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" remote="aosp" />
   <project path="external/libhevc" name="platform/external/libhevc" groups="pdk" remote="aosp" />
