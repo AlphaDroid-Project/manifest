@@ -20,6 +20,12 @@
            sync-j="4"
            revision="refs/heads/alpha-14" />
 
+  <remote  name="alpha-devices"
+           fetch="https://github.com/alphadroid-devices"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/alpha-14" />
+
   <!--  <project path="art" name="art" groups="pdk" remote="alpha" />
   <project path="bionic" name="bionic" groups="pdk" remote="alpha" />
   -->
@@ -61,5 +67,5 @@
   <project path="vendor/gms" name="vendor_gms" remote="alpha-gitlab" clone-depth="1" />
   <project path="vendor/lineage" name="vendor_lineage" remote="alpha" />
   <project path="vendor/microg" name="vendor_microg" remote="alpha-gitlab" clone-depth="1" />
-  <project path="vendor/OTA" name="alphadroid-devices/OTA" remote="github" revision="alpha-14" />
+  <project path="vendor/OTA" name="OTA" remote="alpha-devices" revision="alpha-14" />
 </manifest>
