@@ -64,8 +64,8 @@
 
   <project path="vendor/addons" name="vendor_addons" remote="alpha" />
   <project path="vendor/extra" name="vendor_extra" remote="alpha" />
-  <project path="vendor/gms" name="vendor_gms" remote="alpha-gitlab" clone-depth="1" />
+  <project path="vendor/gms" name="vendor_gms" remote="alpha-gitlab" />
   <project path="vendor/lineage" name="vendor_lineage" remote="alpha" />
-  <project path="vendor/microg" name="vendor_microg" remote="alpha-gitlab" clone-depth="1" />
+  <project path="vendor/microg" name="vendor_microg" remote="alpha-gitlab" />
   <project path="vendor/OTA" name="OTA" remote="alpha-devices" revision="alpha-14" />
 </manifest>
