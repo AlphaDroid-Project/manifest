@@ -44,11 +44,11 @@ repo sync
 $ . build/envsetup.sh
 
 # Build the code
-$ lunch lineage_[device_name]-ap1a-[build_variant]
+$ lunch lineage_<device_codename>-<build_variant>
 $ make bacon
 
 # Or, instead of 'lunch + make', just
-$ brunch [device_name]
+$ brunch <device_codname>
 ```
 
 <p>

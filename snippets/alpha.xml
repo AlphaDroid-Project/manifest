@@ -26,9 +26,8 @@
            sync-j="4"
            revision="refs/heads/alpha-14" />
 
-  <!--  <project path="art" name="art" groups="pdk" remote="alpha" />
+  <project path="art" name="art" groups="pdk" remote="alpha" />
   <project path="bionic" name="bionic" groups="pdk" remote="alpha" />
-  -->
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="alpha" />
 
   <project path="build/make" name="build_make" groups="pdk" remote="alpha">
@@ -47,27 +46,57 @@
 
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="alpha" />
 
-  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="alpha" />
+  <project path="external/setupcompat" name="external_setupcompat" groups="pdk,sysui-studio" remote="alpha" />
+  <project path="external/sqlite" name="external_sqlite" groups="pdk" remote="alpha" />
+  <project path="external/webp" name="external_webp" groups="pdk,qcom_msm8x26" remote="alpha"/>
 
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="alpha" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="alpha" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="alpha" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="alpha" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="alpha" />
+
+  <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk,sysui-studio" remote="alpha" />
   <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="alpha" />
   <!--<project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom-caf_sdm845_display" groups="qcom" remote="alpha" />-->
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="alpha" />
 
   <project path="lineage-sdk" name="lineage-sdk" remote="alpha" />
 
   <project path="packages/apps/AlphaSettings" name="packages_apps_AlphaSettings" remote="alpha" />
   <!--<project path="packages/apps/AlphaWallpapers" name="packages_apps_AlphaWallpapers" groups="pdk-fs" remote="alpha" />-->
+  <project path="packages/apps/Backgrounds" name="packages_apps_Backgrounds" remote="alpha" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="alpha" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="alpha" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="alpha" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="alpha" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk-fs" remote="alpha" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="alpha" />
+  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="alpha" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="alpha" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="alpha" />
-  <!--<project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="alpha" />-->
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="alpha" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="alpha" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="alpha" />
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk" remote="alpha" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="alpha" />
+  <project path="packages/modules/Permission" name="packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="alpha" />
   <project path="packages/modules/StatsD" name="packages_modules_StatsD" groups="pdk-cw-fs,pdk-fs" remote="alpha" />
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="alpha" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="alpha" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="alpha" />
+  <project path="packages/modules/Virtualization" name="packages_modules_Virtualization" groups="pdk" remote="alpha" />
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" remote="alpha" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="alpha" />
 
-  <!--<project path="system/core" name="system_core" groups="pdk" remote="alpha" />-->
+  <project path="system/core" name="system_core" groups="pdk" remote="alpha" />
+  <project path="system/hardware/interfaces" name="system_hardware_interfaces" groups="pdk,sysui-studio" remote="alpha" />
   <project path="system/libfmq" name="system_libfmq" groups="pdk" remote="alpha" />
   <project path="system/libhidl" name="system_libhidl" groups="pdk,sysui-studio" remote="alpha"/>
-  <!--<project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="alpha" />-->
+  <project path="system/netd" name="system_netd" groups="pdk" remote="alpha" />
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="alpha" />
+  <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="alpha" />
+  <project path="system/vold" name="system_vold" groups="pdk" remote="alpha" />
 
   <project path="vendor/addons" name="vendor_addons" remote="alpha" />
   <project path="vendor/extra" name="vendor_extra" remote="alpha" />

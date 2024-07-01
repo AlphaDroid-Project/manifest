@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="development" name="LineageOS/android_development" groups="developers,pdk-cw-fs,pdk-fs" revision="101baf3b4a997334700f81c688af2cbc36efc3ab"/>
+  <project path="device/generic/common" name="LineageOS/android_device_generic_common" groups="pdk" revision="e2feee8ef6a332b959fe21c1f65cb355361608df" />
+  <project path="device/google/atv" name="LineageOS/android_device_google_atv" groups="device,broadcom_pdk,generic_fs,pdk" revision="010133cf39b9519f2ff596ae91cfa26046f26701" />
+  <project path="device/google/contexthub" name="LineageOS/android_device_google_contexthub" groups="device,pdk" revision="846d8316f3da79ce27dcdf92c98de50d9a900ec8" />
+  <project path="external/arm-trusted-firmware" name="LineageOS/android_external_arm-trusted-firmware" groups="pdk" revision ="c6750c464503106e63d44b4ad77fee0cb79d7dbf" />
+  <project path="external/avb" name="LineageOS/android_external_avb" groups="pdk" revision="489930662c8b6b098933c27d7dced78f685b3966" />
+  <project path="external/cronet" name="LineageOS/android_external_cronet" groups="pdk" revision="9f98ed59f8c0b466747f052d6d13ab43008734a3" />
+  <project path="external/dtc" name="LineageOS/android_external_dtc" groups="pdk" revision="37393897520b10ca835962f3847ab357b3952779" />
+  <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" revision="d37e9f0ddce5c220aed237c0d97d732c773861cc" />
+  <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" revision="6727e78ba400a8db61266f5ae769827e3bbf509b" />
+  <project path="external/libcxx" name="LineageOS/android_external_libcxx" groups="pdk" revision="106fdb332fcd4cab59bf694cf8272e71a67e7845" />
+  <project path="external/libnl" name="LineageOS/android_external_libnl" groups="pdk" revision="a1fa263e3588b3a57fc3a04013d7091a3c3b7e42" />
+  <project path="external/libvpx" name="LineageOS/android_external_libvpx" groups="pdk" revision="1ecd62a6eaf18c9084cee859f1072e5178420ccd" />
+  <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" revision="05734d24dab15a7c4f07179cc29effeb7d4e8e2f" />
+  <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" revision="fceafea8cd9435115b3c114e82f9cba01870f12a" />
+  <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" revision="e84613e844a897c2395a281f6cf211147e624af3" />
+  <project path="external/zstd" name="LineageOS/android_external_zstd" revision="47433a4139ecf21f74816290b23330f38aa6a64e" />
+  <project path="frameworks/opt/calendar" name="LineageOS/android_frameworks_opt_calendar" groups="pdk-cw-fs,pdk-fs" revision="7f9a3bea05566489b2fb2b7029a43ae694f60977" />
+  <project path="frameworks/opt/colorpicker" name="LineageOS/android_frameworks_opt_colorpicker" groups="pdk-cw-fs,pdk-fs" revision="ced14328f287484eba5f113c9177505fee306127" />
+  <project path="frameworks/opt/timezonepicker" name="LineageOS/android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" revision="152fb56a98e8541d9a9d3c895bf2c26317f878fa" />
+  <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" revision="b8df94bacf72b639628de2ffc31a69329d81f2b8" />
+  <project path="hardware/google/gchips" name="LineageOS/android_hardware_google_gchips" groups="pdk-lassen,pdk-gs-arm" revision="46d2ef64c41aeb189c46779ddfe2bdfbbc98a392" />
+  <project path="hardware/google/graphics/common" name="LineageOS/android_hardware_google_graphics_common" groups="pdk-lassen,pdk-gs-arm" revision="3bdf10737b9246eacad58b482536d8b53a26cf14" />
+  <project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" groups="generic_fs,pixel" revision="b3c22f27732c1dc5ac21fd0dd1c2879a846d2333" />
+  <project path="hardware/google/pixel-sepolicy" name="LineageOS/android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" revision="37f77f2bca7e0bab4cff1f0fe6fb40b35f63daa8" />
+  <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" revision="ce3f95119cad3004f2dfce60c84c59c746edc9bf" />
+  <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="32419c39dc69120585c6badb44d391f0cff5125b" />
+  <project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" groups="qcom,qcom_camera,pdk-qcom" revision="bd810caf015f0cbccadef519b1f2b933d196ff33" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="LineageOS/android_hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk-qcom" revision="a3138c71bf6adeae2b7e6b42ddc679e842b80a06" />
+  <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="d9ca15b9db92f96fc6dc8b69d81282450b9e8856" />
+  <project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk-qcom" revision="727a0053559ed8e8a2e8156a40dfca4520236f14" />
+  <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="8a040cf05bfce08fc15139c3e4862ed657e40a61" />
+  <project path="hardware/qcom/sm7250/display" name="LineageOS/android_hardware_qcom_sm7250_display" groups="qcom,qcom_sm7250" revision="9efc03c017ffd0f532e5c2562cddb63ba2c00c5e" />
+  <project path="hardware/qcom/sm7250/gps" name="LineageOS/android_hardware_qcom_sm7250_gps" groups="qcom,qcom_sm7250" revision="c42d2bdc9578d921b5733efc696b8436c851e36b" >
+    <linkfile dest="hardware/qcom/sm7250/Android.mk" src="os_pickup.mk" />
+    <linkfile dest="hardware/qcom/sm7250/Android.bp" src="os_pickup.bp" />
+  </project>
+  <project path="hardware/qcom/sm7250/media" name="LineageOS/android_hardware_qcom_sm7250_media" groups="qcom,qcom_sm7250" revision="24be416cda7e9aae0820d9c58b3e22e5dfe689a5" />
+  <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="LineageOS/android_hardware_qcom_sm8150_data_ipacfg-mgr" groups="qcom,qcom_sm8150" revision="8c9ade3d52888ba122511ee68778594b1a190aa1" >
+    <linkfile dest="hardware/qcom/sm8150/Android.mk" src="os_pickup.mk" />
+    <linkfile dest="hardware/qcom/sm8150/Android.bp" src="os_pickup.bp" />
+  </project>
+  <project path="hardware/qcom/sm8150/display" name="LineageOS/android_hardware_qcom_sm8150_display" groups="qcom,qcom_sm8150" revision="f8239f51d301497a5418d1f7dc3cbfb14a043109" />
+  <project path="hardware/qcom/sm8150/gps" name="LineageOS/android_hardware_qcom_sm8150_gps" groups="qcom,qcom_sm8150" revision="4e7e01c20aa9b08eb0acd63d809503ecf637f8bb" />
+  <project path="hardware/qcom/sm8150/media" name="LineageOS/android_hardware_qcom_sm8150_media" groups="qcom,qcom_sm8150" revision="80ca8bcdc83ddef54eef65d867e4524540c5c223" />
+  <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" revision="7491232cda309eeb561d304454626f405c6e7954" />
+  <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" revision="e1d539d38fecd4f1c0baf7478726352b1cea634f" />
+  <project path="hardware/samsung/nfc" name="LineageOS/android_hardware_samsung_nfc" groups="pdk" revision="51321dd6bc591f9195fa17e00131a16c444fbdf8" />
+  <project path="hardware/st/nfc" name="LineageOS/android_hardware_st_nfc" groups="pdk" revision="0b0183575ea441ea45c9f65ae4155e0f28c8ad7a" />
+  <project path="kernel/configs" name="LineageOS/android_kernel_configs" groups="vts,pdk" revision="64d5da64c81d54977e7b050290fa106133ca1363"/>
+  <project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" groups="pdk-fs" revision="865450b274876b76203a916111725ed026ad9548" />
+  <project path="packages/apps/Car/Settings" name="LineageOS/android_packages_apps_Car_Settings" groups="pdk-fs" revision="6389a1aeb20125e6c8f275b7bd1557c06e0aeb28"/>
+  <project path="packages/apps/CellBroadcastReceiver" name="LineageOS/android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" revision="152a81b3acd5191dd9d8d4e8f72d316afd4596c7" />
+  <project path="packages/apps/DocumentsUI" name="LineageOS/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" revision="1f330389d716d268e69367f8a43a5e4fc8db1db5" />
+  <project path="packages/apps/EmergencyInfo" name="LineageOS/android_packages_apps_EmergencyInfo" groups="pdk-fs" revison="8fd13ef1da061f6fdddceea9877ae320a326aad4" />
+  <project path="packages/apps/SettingsIntelligence" name="LineageOS/android_packages_apps_SettingsIntelligence" groups="pdk-fs" revision="f1fcc53263daac96ee2e10a253a5705240fefd0c" />
+  <project path="packages/apps/Stk" name="LineageOS/android_packages_apps_Stk" groups="apps_stk,pdk-fs" revision="12c0bb30b9b54820792f6245e048de42bdf4fc45" />
+  <project path="packages/apps/Tag" name="LineageOS/android_packages_apps_Tag" groups="pdk-fs" revision="2844783b03f9a500ba58b64188ce44092e77c5df" />
+  <project path="packages/apps/TvSettings" name="LineageOS/android_packages_apps_TvSettings" groups="pdk-fs" revision="2beacd23142f625a22b5df6325b87e8b5e462d70" />
+  <project path="packages/inputmethods/LeanbackIME" name="LineageOS/android_packages_inputmethods_LeanbackIME" groups="pdk-fs" revision="e149bd75e80000e8ce5e1ffe045174c32825924e" />
+  <project path="packages/modules/adb" name="LineageOS/android_packages_modules_adb" groups="pdk" revision="067985849f5366f494243381a2d3e2c952092c8f" />
+  <project path="packages/modules/common" name="LineageOS/android_packages_modules_common" groups="pdk-cw-fs,pdk-fs" revision="400a83280783c2820813f1b939b39afdf93afb03" />
+  <project path="packages/providers/BlockedNumberProvider" name="LineageOS/android_packages_providers_BlockedNumberProvider" groups="pdk-fs" revision="6fc4bc4f12fad97867bc936c094c74758d7778e0" />
+  <project path="packages/providers/BookmarkProvider" name="LineageOS/android_packages_providers_BookmarkProvider" groups="pdk-fs" revision="dd3906226b83e8aada6646069b33ea8a296ce0b5" />
+  <project path="packages/providers/CalendarProvider" name="LineageOS/android_packages_providers_CalendarProvider" groups="pdk-cw-fs,pdk-fs" revision="826caec6da7faffa87328ed3afb521e603e1acd2" />
+  <project path="packages/providers/CallLogProvider" name="LineageOS/android_packages_providers_CallLogProvider" groups="pdk-fs" revision="bd8de1668b770c78c7c2e7933e02b620cc39f0a0" />
+  <project path="packages/providers/ContactsProvider" name="LineageOS/android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" revision="510dd12855060cc25b52b9d68cc263dc82265abd" />
+  <project path="packages/providers/DownloadProvider" name="LineageOS/android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" revision="2c95de42c62c2f95b9271e63954170db242d3ef0" />
+  <project path="packages/providers/MediaProvider" name="LineageOS/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" revision="13ed8cc73eb4f41ecf9c4b9c82f03bc49c871933" />
+  <project path="packages/providers/TelephonyProvider" name="LineageOS/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" revision="46c4e42a20698acaff18c7f9642861734d564465" />
+  <project path="packages/screensavers/PhotoTable" name="LineageOS/android_packages_screensavers_PhotoTable" groups="pdk-fs" revision="199ed621459b62c44ee2e1c3db520608a11d4fc8" />
+  <project path="packages/services/Car" name="LineageOS/android_packages_services_Car" groups="pdk-cw-fs,pdk-fs" revision="6e90c74186801d81a7ba78f8c737e10f8e1144ae"/>
+  <project path="packages/services/Mms" name="LineageOS/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" revision="f376e7aed6259cb7d42058b13146fafc54478bd0" />
+  <project path="packages/wallpapers/LivePicker" name="LineageOS/android_packages_wallpapers_LivePicker" groups="pdk-fs" revision="cf2dba1380315d7280200d26bfb9e7fc929850ca" />
+  <project path="system/bpf" name="LineageOS/android_system_bpf" groups="pdk" revision="dd436e6e045906641bcf23edbc7327c76dce2233" />
+  <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" revision="5d70f544dd345011cbea5bfb61c545d41d6c44b9" />
+  <project path="system/keymaster" name="LineageOS/android_system_keymaster" groups="pdk" revision="c511cf87d7b57f065b89a3cfd5627dd70bd0354e" />
+  <project path="system/libziparchive" name="LineageOS/android_system_libziparchive" groups="pdk" revision="217051c2a12c25bfbf18e4773977068903624043" />
+  <project path="system/logging" name="LineageOS/android_system_logging" groups="pdk" revision="2f90d40b9322ed33c570917cbc9f0457458d112c" />
+  <project path="system/media" name="LineageOS/android_system_media" groups="pdk" revision="993ee4365e438b4659dc6b2c1c20cc74a6a797e1"/>
+  <project path="system/security" name="LineageOS/android_system_security" groups="pdk" revision="54ff8b8f11d83930a7d6d117cebd63eead337c9f" />
+  <project path="system/tools/mkbootimg" name="LineageOS/android_system_tools_mkbootimg" groups="pdk" revision="90054adc0017398ae868e990e85fd8dc58020c75" />
+
+</manifest>
