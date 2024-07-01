@@ -88,6 +88,7 @@
   <project path="packages/modules/Virtualization" name="packages_modules_Virtualization" groups="pdk" remote="alpha" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" remote="alpha" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="alpha" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="alpha" />
 
   <project path="system/core" name="system_core" groups="pdk" remote="alpha" />
   <project path="system/hardware/interfaces" name="system_hardware_interfaces" groups="pdk,sysui-studio" remote="alpha" />

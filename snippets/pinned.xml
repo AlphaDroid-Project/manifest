@@ -69,7 +69,6 @@
   <project path="packages/providers/CallLogProvider" name="LineageOS/android_packages_providers_CallLogProvider" groups="pdk-fs" revision="bd8de1668b770c78c7c2e7933e02b620cc39f0a0" />
   <project path="packages/providers/ContactsProvider" name="LineageOS/android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" revision="510dd12855060cc25b52b9d68cc263dc82265abd" />
   <project path="packages/providers/DownloadProvider" name="LineageOS/android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" revision="2c95de42c62c2f95b9271e63954170db242d3ef0" />
-  <project path="packages/providers/MediaProvider" name="LineageOS/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" revision="13ed8cc73eb4f41ecf9c4b9c82f03bc49c871933" />
   <project path="packages/providers/TelephonyProvider" name="LineageOS/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" revision="46c4e42a20698acaff18c7f9642861734d564465" />
   <project path="packages/screensavers/PhotoTable" name="LineageOS/android_packages_screensavers_PhotoTable" groups="pdk-fs" revision="199ed621459b62c44ee2e1c3db520608a11d4fc8" />
   <project path="packages/services/Car" name="LineageOS/android_packages_services_Car" groups="pdk-cw-fs,pdk-fs" revision="6e90c74186801d81a7ba78f8c737e10f8e1144ae"/>
