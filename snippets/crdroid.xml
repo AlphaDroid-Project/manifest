@@ -18,13 +18,9 @@
   <project path="bionic" name="crdroidandroid/android_bionic" groups="pdk" remote="crdroid" />
 
   <project path="external/arm-optimized-routines" name="crdroidandroid/android_external_arm-optimized-routines" groups="pdk" remote="crdroid" />
-  <project path="external/boringssl" name="crdroidandroid/android_external_boringssl" groups="pdk" remote="crdroid" />
   <project path="external/FadingEdgeLayout" name="crdroidandroid/android_external_FadingEdgeLayout" remote="crdroid" />
   <project path="external/giflib" name="crdroidandroid/android_external_giflib" groups="pdk,qcom_msm8x26" remote="crdroid" />
   <project path="external/jemalloc_new" name="crdroidandroid/android_external_jemalloc-new" groups="pdk" remote="crdroid" />
-  <project path="external/libfuse" name="crdroidandroid/android_external_libfuse" groups="pdk" remote="crdroid" />
-  <project path="external/perfetto" name="crdroidandroid/android_external_perfetto" groups="pdk,sysui-studio" remote="crdroid" />
-  <project path="external/rust/crates/ring" name="crdroidandroid/android_external_rust_crates_ring" groups="pdk" remote="crdroid" />
   <project path="external/setupcompat" name="crdroidandroid/android_external_setupcompat" groups="pdk,sysui-studio" remote="crdroid" />
   <project path="external/sqlite" name="crdroidandroid/android_external_sqlite" groups="pdk" remote="crdroid" />
 
@@ -37,7 +33,7 @@
   <project path="hardware/qcom-caf/sm8150/audio" name="crdroidandroid/android_hardware_qcom_audio" groups="qcom,msmnile" revision="14.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/display" name="crdroidandroid/android_hardware_qcom_display" groups="qcom" revision="14.0-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/media" name="crdroidandroid/android_hardware_qcom_media" groups="qcom,msmnile" revision="14.0-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8450/display" name="crdroidandroid/android_hardware_qcom_display" groups="qcom" revision="14.0-caf-sm8450" />
+
   <project path="hardware/xiaomi" name="crdroidandroid/android_hardware_xiaomi" remote="crdroid" />
 
   <project path="packages/apps/Backgrounds" name="crdroidandroid/android_packages_apps_Backgrounds" remote="crdroid" />
@@ -55,17 +51,19 @@
   <project path="packages/modules/Bluetooth" name="crdroidandroid/android_packages_modules_Bluetooth" groups="pdk" remote="crdroid" />
   <project path="packages/modules/Connectivity" name="crdroidandroid/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/modules/Permission" name="crdroidandroid/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
-  <project path="packages/modules/Virtualization" name="crdroidandroid/android_packages_modules_Virtualization" groups="pdk" remote="crdroid" />
+  <project path="packages/modules/StatsD" name="crdroidandroid/android_packages_modules_StatsD" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/modules/Wifi" name="crdroidandroid/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="crdroid" />
+  <project path="packages/services/DeviceAsWebcam" name="crdroidandroid/android_packages_services_DeviceAsWebcam" remote="crdroid" />
   <project path="packages/services/OmniJaws" name="crdroidandroid/android_packages_services_OmniJaws" remote="crdroid" />
   <project path="packages/services/Telecomm" name="crdroidandroid/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
 
   <project path="prebuilts/build-tools" name="crdroidandroid/android_prebuilts_build-tools" groups="pdk,sysui-studio" remote="crdroid" />
   <!-- Clang 17.0.4 -->
-  <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r498229b" remote="crdroid-gitlab" />
+  <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r522817" remote="crdroid-gitlab" />
 
   <project path="system/core" name="crdroidandroid/android_system_core" groups="pdk" remote="crdroid" />
   <project path="system/hardware/interfaces" name="crdroidandroid/android_system_hardware_interfaces" groups="pdk,sysui-studio" remote="crdroid" />
+  <project path="system/libhwbinder" name="crdroidandroid/android_system_libhwbinder" groups="pdk" remote="crdroid" />
   <project path="system/netd" name="crdroidandroid/android_system_netd" groups="pdk" remote="crdroid" />
   <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" groups="pdk" remote="crdroid" />
   <project path="system/update_engine" name="crdroidandroid/android_system_update_engine" groups="pdk" remote="crdroid" />
