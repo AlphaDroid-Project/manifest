@@ -77,5 +77,5 @@
   <project path="vendor/gms" name="vendor_gms" remote="alpha-gitlab" />
   <project path="vendor/lineage" name="vendor_lineage" remote="alpha" />
   <project path="vendor/microg" name="vendor_microg" remote="alpha-gitlab" />
-  <project path="vendor/OTA" name="OTA" remote="alpha-devices" revision="alpha-14" />
+  <project path="vendor/OTA" name="OTA" remote="alpha-devices" />
 </manifest>
