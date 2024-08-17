@@ -61,6 +61,7 @@
   <!--<project path="packages/apps/AlphaWallpapers" name="packages_apps_AlphaWallpapers" groups="pdk-fs" remote="alpha" />-->
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="alpha" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="alpha" />
+  <project path="packages/apps/Pif" name="packages_apps_Pif" remote="alpha" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="alpha" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="alpha" />
   <!--<project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="alpha" />-->
