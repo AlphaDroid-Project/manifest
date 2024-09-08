@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-
   <remote  name="alpha"
            fetch="https://github.com/alphadroid-project"
            sync-c="true"
@@ -19,6 +18,13 @@
            sync-c="true"
            sync-j="4"
            revision="refs/heads/alpha-14" />
+
+  <remote name="alpha-gitea"
+          fetch="git@gitea.com:alphadroid-project/"
+          sync-c="true"
+          sync-j="4"
+          revision="refs/heads/alpha-14"
+          clone-depth="1" />
 
   <remote  name="alpha-devices"
            fetch="https://github.com/alphadroid-devices"
