@@ -50,7 +50,7 @@
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="alpha" />
   <project path="device/qcom/sepolicy_vndr/legacy-um" name="device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="alpha" />
 
-  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="alpha" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="alpha" revision="alpha-14-pixel" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="alpha" />
 
   <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="alpha" />
@@ -63,7 +63,7 @@
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="alpha" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="alpha" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="alpha" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="alpha" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="alpha" revision="alpha-14-pixel" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="alpha" />
   <!--<project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="alpha" />-->
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="alpha" />
@@ -77,7 +77,7 @@
   <project path="vendor/addons" name="vendor_addons" remote="alpha" />
   <project path="vendor/extra" name="vendor_extra" remote="alpha" />
   <project path="vendor/gms" name="vendor_gms" remote="alpha-gitlab" />
-  <project path="vendor/lineage" name="vendor_lineage" remote="alpha" />
+  <project path="vendor/lineage" name="vendor_lineage" remote="alpha" revision="alpha-14-pixel" />
   <project path="vendor/microg" name="vendor_microg" remote="alpha-gitlab" />
   <project path="vendor/OTA" name="OTA" remote="alpha-devices" />
 </manifest>
