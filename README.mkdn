@@ -30,7 +30,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/alphadroid-project/manifest -b alpha-14 --git-lfs
+repo init -u https://github.com/alphadroid-project/manifest -b alpha-15-wip-los --git-lfs
 
 # Sync
 repo sync

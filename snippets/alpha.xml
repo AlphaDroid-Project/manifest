@@ -5,13 +5,13 @@
            fetch="https://github.com/alphadroid-project"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/alpha-14" />
+           revision="refs/heads/alpha-15-wip-los" />
 
   <remote  name="alpha-ssh"
            fetch="git@github.com:alphadroid-project"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/alpha-14" />
+           revision="refs/heads/alpha-15-wip-los" />
 
   <remote  name="alpha-gitlab"
            fetch="https://gitlab.com/alphadroid-project"
@@ -29,15 +29,11 @@
            fetch="https://github.com/alphadroid-devices"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/alpha-14" />
+           revision="refs/heads/alpha-15-wip-los" />
 
-  <!--  <project path="art" name="art" groups="pdk" remote="alpha" />
-  <project path="bionic" name="bionic" groups="pdk" remote="alpha" />
-  -->
-  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="alpha" />
+  <project path="manifest" name="manifest" remote="alpha" />
 
-  <project path="build/make" name="build_make" groups="pdk" remote="alpha">
-    <copyfile src="core/root.mk" dest="Makefile" />
+  <project path="build/make" name="build_make" groups="pdk,sysui-studio" remote="alpha" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -45,34 +41,38 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+
   <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="alpha" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project path="bionic" name="bionic" groups="pdk" remote="alpha" />
-
-  <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="alpha" />
-  <project path="device/qcom/sepolicy_vndr/legacy-um" name="device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="alpha" />
+  <project path="device/alpha/sepolicy" name="device_alpha_sepolicy" remote="alpha">
+    <linkfile src="common/sepolicy.mk" dest="device/lineage/sepolicy/common/sepolicy.mk" />
+    <linkfile src="qcom/sepolicy.mk" dest="device/lineage/sepolicy/qcom/sepolicy.mk" />
+    <linkfile src="libperfmgr/sepolicy.mk" dest="device/lineage/sepolicy/libperfmgr/sepolicy.mk" />
+  </project>
+  <!--<project path="device/qcom/sepolicy_vndr/legacy-um" name="device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="alpha" />
 
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="alpha" />
-  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="alpha" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="alpha" />-->
 
+  <project path="hardware/lineage/compat" name="hardware_lineage_compat" remote="alpha" />
   <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="alpha" />
   <!--<project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom-caf_sdm845_display" groups="qcom" remote="alpha" />-->
 
-  <project path="lineage-sdk" name="lineage-sdk" remote="alpha" />
+  <!--<project path="lineage-sdk" name="lineage-sdk" remote="alpha" />-->
 
-  <project path="packages/apps/AlphaSettings" name="packages_apps_AlphaSettings" remote="alpha" />
-  <!--<project path="packages/apps/AlphaWallpapers" name="packages_apps_AlphaWallpapers" groups="pdk-fs" remote="alpha" />-->
+  <!--  <project path="packages/apps/AlphaSettings" name="packages_apps_AlphaSettings" remote="alpha" />
+  <project path="packages/apps/AlphaWallpapers" name="packages_apps_AlphaWallpapers" groups="pdk-fs" remote="alpha" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="alpha" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="alpha" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="alpha" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="alpha" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="alpha" />
-  <!--<project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="alpha" />-->
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="alpha" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="alpha" />
-  <!--<project path="packages/modules/StatsD" name="packages_modules_StatsD" groups="pdk-cw-fs,pdk-fs" remote="alpha" />-->
+  <project path="packages/modules/StatsD" name="packages_modules_StatsD" groups="pdk-cw-fs,pdk-fs" remote="alpha" />-->
 
   <!--<project path="system/core" name="system_core" groups="pdk" remote="alpha" />-->
   <!--<project path="system/libfmq" name="system_libfmq" groups="pdk" remote="alpha" />-->
@@ -80,9 +80,9 @@
   <!--<project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="alpha" />-->
 
   <project path="vendor/addons" name="vendor_addons" remote="alpha" />
-  <project path="vendor/extra" name="vendor_extra" remote="alpha" />
-  <project path="vendor/gms" name="vendor_gms" remote="alpha-gitlab" />
-  <project path="vendor/lineage" name="vendor_lineage" remote="alpha" />
-  <project path="vendor/microg" name="vendor_microg" remote="alpha-gitlab" />
-  <project path="vendor/OTA" name="OTA" remote="alpha-devices" />
+  <!--  <project path="vendor/extra" name="vendor_extra" remote="alpha" />
+  <project path="vendor/gms" name="vendor_gms" remote="alpha-gitlab" />-->
+  <project path="vendor/alpha" name="vendor_alpha" remote="alpha" />
+  <!--  <project path="vendor/microg" name="vendor_microg" remote="alpha-gitlab" />
+  <project path="vendor/OTA" name="OTA" remote="alpha-devices" />-->
 </manifest>
