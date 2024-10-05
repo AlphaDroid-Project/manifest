@@ -80,6 +80,7 @@
   <project path="packages/modules/Permission" name="crdroidx/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/modules/Virtualization" name="crdroidx/android_packages_modules_Virtualization" groups="pdk" remote="crdroid" />
   <project path="packages/modules/Wifi" name="crdroidx/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="crdroid" />
+  <project path="packages/services/OmniJaws" name="crdroidx/android_packages_services_OmniJaws" remote="crdroid" />
   <project path="packages/services/Telecomm" name="crdroidx/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/services/Telephony" name="crdroidx/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
 
