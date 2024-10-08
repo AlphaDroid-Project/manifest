@@ -30,6 +30,9 @@
            sync-c="true"
            sync-j="4"
            revision="refs/heads/alpha-15-wip-los" />
+  <remote name="elpaablo"
+           fetch="https://github.com/elpaablo"
+           revision="refs/heads/alpha-14" />"
 
   <project path="manifest" name="manifest" remote="alpha" />
 
@@ -62,7 +65,8 @@
   <!--<project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom-caf_sdm845_display" groups="qcom" remote="alpha" />-->
 
   <!--<project path="lineage-sdk" name="lineage-sdk" remote="alpha" />-->
-
+  <project path="packages/apps/crDroidSettings" name="packages_apps_AlphaSettings" remote="elpaablo" revision="15.0" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="elpaablo" revision="15.0" />
   <!--  <project path="packages/apps/AlphaSettings" name="packages_apps_AlphaSettings" remote="alpha" />
   <project path="packages/apps/AlphaWallpapers" name="packages_apps_AlphaWallpapers" groups="pdk-fs" remote="alpha" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="alpha" />
