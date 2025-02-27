@@ -1,34 +1,33 @@
-<p><b>AlphaDroid</b></p>
+## AlphaDroid ##
 
-<p>AlphaDroid is a custom ROM for Android, based on LineageOS/crDroid, with a new look and some extra features and optimizations. Extra features are picked from other custom ROMs and adapted to our needs or implemented by us.</p>
+AlphaDroid is a custom ROM for Android, based on LineageOS/crDroid, with a new look and some extra features and optimizations. Extra features are picked from other custom ROMs and adapted to our needs or implemented by us.
 
-<p>Credits:</p>
+Credits:
 
-<p>* Base:<br/>
-** <a href="https://github.com/LineageOS">LineageOS</a><br/>
-** <a href="https://github.com/crDroidAndroid">crDroid Android</a><br/>
+* Base:
+  * [LineageOS](https://github.com/LineageOS)
+  * [crDroid Android](https://github.com/crDroidAndroid)
 
-<p>* UI:<br/>
-** <a href="https://github.com/dotos">dotOS</a><br/>
-** <a href="https://github.com/xdroid-oss">xdroidOSS</a><br/>
-** <a href="https://github.com/nusantaraproject-rom">NusantaraProject</a></br>
-** <a href="https://github.com/bootleggersrom">Bootleggers</a></p>
+* UI:
+  * [dotOS](https://github.com/dotos)
+  * [xdroidOSS](https://github.com/xdroid-oss)
+  * [NusantaraProject](https://github.com/nusantaraproject-rom)
+  * [Bootleggers](https://github.com/bootleggersrom)
 
-<p>* Extra features:<br/>
-** <a href="https://github.com/risingtechoss">RisingTechOSS</a><br/>
-** <a href="https://github.com/spark-rom">SparkOS</a><br/>
-** <a href="https://github.com/pixelexperience">PixelExperience</a><br/>
-** <a href="https://github.com/bananadroid">BananaDroid</a><br/>
-** <a href="https://github.com/theParasiteProject">TheParasiteProject</a><br/>
-** <a href="https://github.com/VoltageOS">VoltageOS</a><br/>
+* Extra features:
+  * [RisingTechOSS](https://github.com/risingtechoss)
+  * [SparkOS](https://github.com/spark-rom)
+  * [PixelExperience](https://github.com/pixelexperience)
+  * [BananaDroid](https://github.com/bananadroid)
+  * [TheParasiteProject](https://github.com/theParasiteProject)
+  * [VoltageOS](https://github.com/VoltageOS)
 
-<p>* Alpha logo and banners:<br/>
-** <a href="https://github.com/naokoshoto">naokoshoto</a></p>
+* Alpha logo and banners:
+  * [naokoshoto](https://github.com/naokoshoto)
 
 ### Sync ###
 
 ```bash
-
 # Initialize local repository
 repo init -u https://github.com/alphadroid-project/manifest -b alpha-15.1 --git-lfs
 
@@ -39,7 +38,6 @@ repo sync
 ### Build ###
 
 ```bash
-
 # Set up environment
 $ . build/envsetup.sh
 
@@ -51,6 +49,6 @@ $ make bacon
 $ brunch alpha_<device_codename>-<build_variant>
 ```
 
-<p>
-  If you need help to create a build environment, you can check crDroid instructions <a href="https://github.com/crdroidandroid/android">here</a>.
-</p>
+#### Build environment ####
+
+If you need help to create a build environment, you can check crDroid instructions [here](https://github.com/crdroidandroid/android).
