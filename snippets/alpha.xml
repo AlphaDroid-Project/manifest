@@ -50,7 +50,6 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <project path="build/pesto" name="build_pesto" groups="pdk" remote="alpha" />
   <project path="build/release" name="build_release" groups="pdk,tradefed" remote="alpha" />
 
   <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="alpha" >
