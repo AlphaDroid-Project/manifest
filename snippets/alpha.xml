@@ -68,7 +68,6 @@
   <!--<project path="device/qcom/sepolicy_vndr/legacy-um" name="device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="alpha" />-->
 
   <project path="external/FadingEdgeLayout" name="external_FadingEdgeLayout" remote="alpha" />
-  <project path="external/robolectric" name="external_robolectric" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="alpha" />
 
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="alpha" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="alpha" />
