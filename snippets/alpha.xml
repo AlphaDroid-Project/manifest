@@ -80,6 +80,7 @@
   <project path="packages/apps/AlphaSettings" name="packages_apps_AlphaSettings" remote="alpha" />
   <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="alpha-gitlab" />
   <project path="packages/apps/Backgrounds" name="packages_apps_Backgrounds" remote="alpha" />
+  <project path="packages/apps/ColumbusService" name="packages_apps_ColumbusService" remote="alpha" />
   <project path="packages/apps/FlipFlap" name="packages_apps_FlipFlap" remote="alpha" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="alpha" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="alpha" />
