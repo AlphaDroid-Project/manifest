@@ -5,22 +5,19 @@ AlphaDroid is a custom ROM for Android, based on LineageOS/crDroid, with a new l
 Credits:
 
 * Base:
-  * [LineageOS](https://github.com/LineageOS)
   * [crDroid Android](https://github.com/crDroidAndroid)
+  * [LineageOS](https://github.com/LineageOS)
 
 * UI:
-  * [dotOS](https://github.com/dotos)
-  * [xdroidOSS](https://github.com/xdroid-oss)
-  * [NusantaraProject](https://github.com/nusantaraproject-rom)
   * [Bootleggers](https://github.com/bootleggersrom)
+  * [dotOS](https://github.com/dotos)
+  * [NusantaraProject](https://github.com/nusantaraproject-rom)
 
-* Extra features:
-  * [RisingTechOSS](https://github.com/risingtechoss)
-  * [SparkOS](https://github.com/spark-rom)
-  * [PixelExperience](https://github.com/pixelexperience)
-  * [BananaDroid](https://github.com/bananadroid)
-  * [TheParasiteProject](https://github.com/theParasiteProject)
+* Extras:
+  * [PixelOS](https://github.com/PixelOS-AOSP)
+  * [RisingOS-Revived](https://github.com/RisingOS-Revived)
   * [VoltageOS](https://github.com/VoltageOS)
+  * [YAAP](https://github.com/yaap/)
 
 * Alpha logo and banners:
   * [naokoshoto](https://github.com/naokoshoto)
@@ -29,7 +26,7 @@ Credits:
 
 ```bash
 # Initialize local repository
-repo init -u https://github.com/alphadroid-project/manifest -b alpha-15.1 --git-lfs
+repo init -u https://github.com/alphadroid-project/manifest -b alpha-15.2 --git-lfs
 
 # Sync
 repo sync
@@ -41,12 +38,12 @@ repo sync
 # Set up environment
 $ . build/envsetup.sh
 
-# Build the code
-$ lunch alpha_<device_codename>-<build_variant>
-$ make bacon
+# Build the code using lunch + make
+$ lunch alpha_<device_codename>-<build_variant> && make bacon
 
-# Or, instead of 'lunch + make', just
-$ brunch alpha_<device_codename>-<build_variant>
+# Or just brunch it
+$ brunch <device_codename> # user builds
+$ brunch alpha_<device_codename>-<build_variant> # other variants
 ```
 
 #### Build environment ####

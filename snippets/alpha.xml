@@ -5,34 +5,32 @@
            fetch="https://github.com/alphadroid-project"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/alpha-15.1" />
+           revision="refs/heads/alpha-15.2" />
 
   <remote  name="alpha-ssh"
            fetch="git@github.com:alphadroid-project"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/alpha-15.1" />
+           revision="refs/heads/alpha-15.2" />
+
+  <remote name="alpha-codeberg"
+           fetch="https://codeberg.org/alphadroid-project/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/alpha-15.2" />
 
   <remote  name="alpha-gitlab"
            fetch="https://gitlab.com/alphadroid-project"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/alpha-15.1" />
-
-  <remote name="alpha-gitea"
-          fetch="git@gitea.com:alphadroid-project/"
-          sync-c="true"
-          sync-j="4"
-          revision="refs/heads/alpha-15.1" />
-
-  <remote name="alpha-codeberg"
-          fetch="https://codeberg.org/alphadroid-project/" />
+           revision="refs/heads/alpha-15.2" />
 
   <remote  name="alpha-devices"
            fetch="https://github.com/alphadroid-devices"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/alpha-15.1" />
+           revision="refs/heads/alpha-15.2" />
+
 
   <project path="manifest" name="manifest" remote="alpha" />
 
@@ -50,9 +48,9 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <project path="build/release" name="build_release" groups="pdk,tradefed" remote="alpha" />
+  <!--<project path="build/release" name="build_release" groups="pdk,tradefed" remote="alpha" />-->
 
-  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="alpha" >
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed,sysui-studio" remote="alpha" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -66,6 +64,8 @@
   </project>
   <!--<project path="device/qcom/sepolicy_vndr/legacy-um" name="device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="alpha" />-->
 
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" groups="pdk" remote="alpha" />
+  <project path="external/jemalloc_new" name="external_jemalloc_new" groups="pdk" remote="alpha" />
   <project path="external/FadingEdgeLayout" name="external_FadingEdgeLayout" remote="alpha" />
 
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="alpha" />
@@ -74,17 +74,15 @@
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk,sysui-studio" remote="alpha" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="alpha" />
 
-  <project path="hardware/lineage/compat" name="hardware_lineage_compat" remote="alpha" />
+  <!--<project path="hardware/lineage/compat" name="hardware_lineage_compat" remote="alpha" />-->
   <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="alpha" />
-
-  <project path="lineage-sdk" name="lineage-sdk" remote="alpha" />
 
   <project path="packages/apps/AlphaSettings" name="packages_apps_AlphaSettings" remote="alpha" />
   <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="alpha-gitlab" />
   <project path="packages/apps/Backgrounds" name="packages_apps_Backgrounds" remote="alpha" />
+  <project path="packages/apps/FlipFlap" name="packages_apps_FlipFlap" remote="alpha" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="alpha" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="alpha" />
-  <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="alpha" />
   <project path="packages/apps/LMOFreeForm" name="packages_apps_LMOFreeForm" remote="alpha" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="alpha" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc" remote="alpha" />
@@ -93,7 +91,6 @@
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="alpha" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk" remote="alpha" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="alpha" />
-  <!--<project path="packages/modules/StatsD" name="packages_modules_StatsD" groups="pdk-cw-fs,pdk-fs" remote="alpha" />-->
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="alpha" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="alpha" />
 
@@ -101,9 +98,10 @@
   <project path="prebuilts/clang/host/linux-x86/clang-latest" name="prebuilts_clang_host_linux-x86_clang-r547379" clone-depth="1" remote="alpha-gitlab" />
 
   <project path="system/core" name="system_core" groups="pdk" remote="alpha" />
-  <!--<project path="system/libfmq" name="system_libfmq" groups="pdk" remote="alpha" />-->
-  <!--<project path="system/libhidl" name="system_libhidl" groups="pdk,sysui-studio" remote="alpha"/>-->
+  <project path="system/memory/lmkd" name="system_memory_lmkd" groups="pdk" remote="alpha" />
   <!--<project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="alpha" />-->
+
+  <project path="toolchain/pgo-profiles" name="toolchain_pgo-profiles" groups="pdk" clone-depth="1" remote="alpha" />
 
   <project path="vendor/addons" name="vendor_addons" remote="alpha" />
   <project path="vendor/alpha" name="vendor_alpha" remote="alpha" />
