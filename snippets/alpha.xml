@@ -100,7 +100,7 @@
 
   <project path="system/core" name="system_core" groups="pdk" remote="alpha" />
   <project path="system/memory/lmkd" name="system_memory_lmkd" groups="pdk" remote="alpha" />
-  <!--<project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="alpha" />-->
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="alpha" />
 
   <project path="toolchain/pgo-profiles" name="toolchain_pgo-profiles" groups="pdk" clone-depth="1" remote="alpha" />
 
