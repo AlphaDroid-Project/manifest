@@ -65,7 +65,7 @@
   <!--<project path="device/qcom/sepolicy_vndr/legacy-um" name="device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="alpha" />-->
 
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" groups="pdk" remote="alpha" />
-  <project path="external/jemalloc_new" name="external_jemalloc_new" groups="pdk" remote="alpha" />
+  <project path="external/jemalloc-new" name="external_jemalloc-new" groups="pdk" remote="alpha" />
   <project path="external/FadingEdgeLayout" name="external_FadingEdgeLayout" remote="alpha" />
 
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="alpha" />
