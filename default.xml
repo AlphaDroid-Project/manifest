@@ -31,10 +31,10 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>-->
-  <project path="build/bazel" name="platform/build/bazel" groups="pdk" remote="aosp" >
+  <!--<project path="build/bazel" name="platform/build/bazel" groups="pdk" remote="aosp" >
     <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
     <linkfile src="bazel.BUILD" dest="BUILD" />
-  </project>
+  </project>-->
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="pdk" remote="aosp" />
   <project path="build/blueprint" name="LineageOS/android_build_blueprint" groups="pdk,tradefed" />
   <project path="build/pesto" name="platform/build/pesto" groups="pdk" remote="aosp" />
