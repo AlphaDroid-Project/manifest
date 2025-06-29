@@ -112,6 +112,7 @@
   <project path="vendor/alpha" name="vendor_alpha" remote="alpha" />
 
   <project path="vendor/extra" name="vendor_extra" remote="alpha" />
+  <project path="vendor/Certification" name="vendor_Certification" remote="alpha" />
   <project path="vendor/gms" name="vendor_gms" remote="alpha-gitlab" />
   <project path="vendor/microg" name="vendor_microg" remote="alpha-gitlab" />
   <project path="vendor/pixeloverlays" name="vendor_pixeloverlays" remote="alpha" />
