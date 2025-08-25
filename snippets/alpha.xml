@@ -1,48 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="alpha"
-           fetch="https://github.com/alphadroid-project"
+  <remote  name="crdroid"
+           fetch="https://github.com/"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/alpha-15.2" />
+           revision="refs/heads/16.0" />
 
-  <remote  name="alpha-ssh"
-           fetch="git@github.com:alphadroid-project"
+  <remote  name="crdroid-gitlab"
+           fetch="https://gitlab.com/"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/alpha-15.2" />
+           revision="refs/heads/16.0" />
+
+  <remote  name="alpha"
+           fetch="https://github.com/alphadroid-project/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/alpha-16.1" />
 
   <remote name="alpha-codeberg"
            fetch="https://codeberg.org/alphadroid-project/"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/alpha-15.2" />
+           revision="refs/heads/alpha-16.1" />
 
   <remote  name="alpha-gitlab"
            fetch="https://gitlab.com/alphadroid-project"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/alpha-15.2" />
+           revision="refs/heads/alpha-16.1" />
 
   <remote  name="alpha-devices"
            fetch="https://github.com/alphadroid-devices"
            sync-c="true"
            sync-j="4"
-           revision="refs/heads/alpha-15.2" />
+           revision="refs/heads/alpha-16.1" />
 
 
-  <project path="manifest" name="manifest" remote="alpha" />
+  <project path="manifest" name="manifest_" remote="alpha" />
 
-  <project path="art" name="art" groups="pdk" remote="alpha" />
-  <project path="bionic" name="bionic" groups="pdk" remote="alpha" />
-
-  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="alpha" />
-
-  <project path="build/bazel" name="build_bazel" groups="pdk" remote="alpha" >
-    <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
-    <linkfile src="bazel.BUILD" dest="BUILD" />
-  </project>
   <project path="build/make" name="build_make" groups="pdk,sysui-studio" remote="alpha" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -51,11 +48,17 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <!--<project path="build/release" name="build_release" groups="pdk,tradefed" remote="alpha" />-->
+
   <project path="build/soong" name="build_soong" groups="pdk,tradefed,sysui-studio" remote="alpha" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+
+  <project path="art" name="art" groups="pdk" remote="alpha" />
+  <project path="bionic" name="bionic" groups="pdk" remote="alpha" />
+
+  <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" groups="pdk-cw" remote="alpha" />
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="alpha" />
 
   <project path="device/alpha/sepolicy" name="device_alpha_sepolicy" remote="alpha">
     <linkfile src="common/sepolicy.mk" dest="device/lineage/sepolicy/common/sepolicy.mk" />
@@ -64,58 +67,68 @@
     <linkfile src="atv/sepolicy.mk" dest="device/lineage/sepolicy/atv/sepolicy.mk" />
     <linkfile src="exynos/sepolicy.mk" dest="device/lineage/sepolicy/exynos/sepolicy.mk" />
   </project>
-  <!--<project path="device/qcom/sepolicy_vndr/legacy-um" name="device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="alpha" />-->
 
-  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" groups="pdk" remote="alpha" />
-  <project path="external/bouncycastle" name="external_bouncycastle" groups="pdk" remote="alpha" />
-  <project path="external/jemalloc-new" name="external_jemalloc-new" groups="pdk" remote="alpha" />
-  <project path="external/FadingEdgeLayout" name="external_FadingEdgeLayout" remote="alpha" />
 
-  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="alpha" />
+  <project path="external/bouncycastle" name="crdroidandroid/android_external_bouncycastle" groups="pdk" remote="crdroid" />
+  <project path="external/e2fsprogs" name="crdroidandroid/android_external_e2fsprogs" groups="pdk" remote="crdroid" />
+  <project path="external/FadingEdgeLayout" name="crdroidandroid/android_external_FadingEdgeLayout" remote="crdroid" />
+  <project path="external/jemalloc_new" name="crdroidandroid/android_external_jemalloc-new" groups="pdk" remote="crdroid" />
+
+  <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" groups="pdk,sysui-studio" remote="crdroid" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="alpha" />
-  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="alpha" />
-  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk,sysui-studio" remote="alpha" />
-  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="alpha" />
+  <project path="frameworks/libs/systemui" name="crdroidandroid/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="crdroid" />
+  <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" groups="pdk" remote="crdroid" />
+  <project path="frameworks/opt/telephony" name="crdroidandroid/android_frameworks_opt_telephony" groups="pdk,sysui-studio" remote="crdroid" />
 
-  <!--<project path="hardware/lineage/compat" name="hardware_lineage_compat" remote="alpha" />-->
+  <project path="hardware/interfaces" name="crdroidandroid/android_hardware_interfaces" groups="pdk,sysui-studio" remote="crdroid" />
+  <project path="hardware/libhardware" name="crdroidandroid/android_hardware_libhardware" groups="pdk" remote="crdroid" />
   <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="alpha" />
 
-  <project path="packages/apps/AlphaSettings" name="packages_apps_AlphaSettings" remote="alpha" />
-  <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="alpha-gitlab" />
+  <project path="kernel/configs" name="crdroidandroid/android_kernel_configs" groups="vts,pdk" remote="crdroid" />
+
+  <project path="hardware/qcom-caf/sm8150/display" name="crdroidandroid/android_hardware_qcom_display" groups="qcom" revision="16.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8350/display" name="crdroidandroid/android_hardware_qcom_display" groups="qcom" revision="16.0-caf-sm8350" />
+
   <project path="packages/apps/Backgrounds" name="packages_apps_Backgrounds" remote="alpha" />
-  <project path="packages/apps/ColumbusService" name="packages_apps_ColumbusService" remote="alpha" />
+  <project path="packages/apps/ColumbusService" name="crdroidandroid/android_packages_apps_ColumbusService" remote="crdroid" />
+  <project path="packages/apps/AlphaSettings" name="packages_apps_AlphaSettings" remote="alpha" />
+  <project path="packages/apps/DocumentsUI" name="crdroidandroid/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
+  <project path="packages/apps/Dialer" name="crdroidandroid/android_packages_apps_Dialer" groups="pdk-fs" remote="crdroid" />
+  <project path="packages/apps/FaceUnlock" name="crdroidandroid/android_packages_apps_FaceUnlock" remote="crdroid-gitlab" />
   <project path="packages/apps/FlipFlap" name="packages_apps_FlipFlap" remote="alpha" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="alpha" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="alpha" />
-  <project path="packages/apps/LMOFreeForm" name="packages_apps_LMOFreeForm" remote="alpha" />
-  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="alpha" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc" remote="alpha" />
+  <project path="packages/apps/LMOFreeform" name="crdroidandroid/android_packages_apps_LMOFreeform" remote="crdroid" />
+  <project path="packages/apps/Matlog" name="crdroidandroid/android_packages_apps_Matlog" remote="crdroid" />
+  <project path="packages/apps/Messaging" name="crdroidandroid/android_packages_apps_Messaging" groups="pdk-fs" remote="crdroid" />
+  <project path="packages/apps/OmniStyle" name="crdroidandroid/android_packages_apps_OmniStyle" remote="crdroid" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="alpha" />
+  <project path="packages/apps/SettingsIntelligence" name="crdroidandroid/android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="crdroid" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="alpha" />
-  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs,sysui-studio" remote="alpha" />
+  <project path="packages/apps/ThemePicker" name="crdroidandroid/android_packages_apps_ThemePicker" groups="pdk-fs,sysui-studio" remote="crdroid" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="alpha" />
-  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" remote="alpha" />
-  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk" remote="alpha" />
-  <project path="packages/modules/Wifi" name="packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="alpha" />
+  <project path="packages/apps/WallpaperPicker2" name="crdroidandroid/android_packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" remote="crdroid" />
+  <project path="packages/inputmethods/LatinIME" name="crdroidandroid/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="crdroid" />
+  <project path="packages/modules/Bluetooth" name="crdroidandroid/android_packages_modules_Bluetooth" groups="pdk" remote="crdroid" />
+  <project path="packages/modules/Connectivity" name="crdroidandroid/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
+  <project path="packages/modules/Wifi" name="crdroidandroid/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="crdroid" />
+  <project path="packages/services/DeviceAsWebcam" name="crdroidandroid/android_packages_services_DeviceAsWebcam" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="alpha" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="alpha" />
+  <project path="packages/services/Telephony" name="crdroidandroid/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
 
-  <!-- Clang -->
-  <project path="prebuilts/clang/host/linux-x86/clang-latest" name="prebuilts_clang_host_linux-x86_clang-r547379" clone-depth="1" remote="alpha-gitlab" />
-
+  <project path="system/bpf" name="crdroidandroid/android_system_bpf" groups="pdk" remote="crdroid" />
   <project path="system/core" name="system_core" groups="pdk" remote="alpha" />
-  <project path="system/memory/lmkd" name="system_memory_lmkd" groups="pdk" remote="alpha" />
-  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="alpha" />
+  <project path="system/keymaster" name="crdroidandroid/android_system_keymaster" groups="pdk" remote="crdroid" />
+  <project path="system/libhidl" name="crdroidandroid/android_system_libhidl" groups="pdk,sysui-studio" remote="crdroid" />
+  <project path="system/security" name="crdroidandroid/android_system_security" groups="pdk" remote="crdroid" />
+  <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" groups="pdk" remote="crdroid" />
+  <project path="system/update_engine" name="crdroidandroid/android_system_update_engine" groups="pdk" remote="crdroid" />
 
-  <project path="toolchain/pgo-profiles" name="toolchain_pgo-profiles" groups="pdk" clone-depth="1" remote="alpha" />
-
-  <project path="vendor/addons" name="vendor_addons" remote="alpha" />
-  <project path="vendor/alpha" name="vendor_alpha" remote="alpha" />
-
-  <project path="vendor/extra" name="vendor_extra" remote="alpha" />
-  <project path="vendor/Certification" name="vendor_Certification" remote="alpha" />
   <project path="vendor/gms" name="vendor_gms" remote="alpha-gitlab" />
-  <project path="vendor/microg" name="vendor_microg" remote="alpha-gitlab" />
-  <project path="vendor/pixeloverlays" name="vendor_pixeloverlays" remote="alpha" />
+  <project path="vendor/addons" name="vendor_addons" remote="alpha" />
   <project path="vendor/OTA" name="OTA" remote="alpha-devices" />
+  <project path="vendor/alpha" name="vendor_alpha" remote="alpha" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="crdroidandroid/android_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,pakala-audio" remote="crdroid" />
 
 </manifest>
