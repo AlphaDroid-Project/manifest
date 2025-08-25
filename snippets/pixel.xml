@@ -24,5 +24,7 @@
   <remote name="aosp-caimito" fetch="https://android.googlesource.com" review="android-review.googlesource.com" revision="refs/tags/android-15.0.0_r32" clone-depth="1" />
   <!-- Pixel 9 Pro Fold -->
   <remote name="aosp-comet" fetch="https://android.googlesource.com" review="android-review.googlesource.com" revision="refs/tags/android-15.0.0_r32" clone-depth="1" />
+  <!-- Pixel 9a -->
+  <remote name="aosp-tegu" fetch="https://android.googlesource.com" review="android-review.googlesource.com" revision="refs/tags/android-15.0.0_r31" clone-depth="1" />
 
 </manifest>
