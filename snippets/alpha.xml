@@ -125,7 +125,9 @@
   <project path="system/sepolicy" name="crdroidandroid/android_system_sepolicy" groups="pdk" remote="crdroid" />
   <project path="system/update_engine" name="crdroidandroid/android_system_update_engine" groups="pdk" remote="crdroid" />
 
-  <project path="vendor/gms" name="vendor-pixel-gms" remote="alpha-gitlab" />
+  <project path="vendor/pixel/gms" name="vendor_pixel_gms" remote="alpha-gitlab" />
+  <project path="vendor/pixel/launcher" name="vendor_pixel_launcher" remote="alpha-gitlab" />
+  <project path="vendor/pixel/themepicker" name="vendor_pixel_themepicker" remote="alpha-gitlab" />
   <project path="vendor/addons" name="vendor_addons" remote="alpha" />
   <project path="vendor/OTA" name="OTA" remote="alpha-devices" />
   <project path="vendor/alpha" name="vendor_alpha" remote="alpha" />
