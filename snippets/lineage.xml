@@ -107,6 +107,7 @@
   <project name="LineageOS/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" revision="5c8aca3781d423cc450c1c05b6ff0813812d65bc" upstream="lineage-19.1" dest-branch="lineage-19.1" groups="pdk,linux,x86" clone-depth="1"/>
   <project name="LineageOS/android_prebuilts_tools-lineage" path="prebuilts/tools-lineage" revision="6122a667053a09ca0663fcf2486276bf13814080" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" clone-depth="1"/>
   <project name="LineageOS/android_tools_extract-utils" path="tools/extract-utils" revision="4bbc4b9c058c5d0c706823a7b42e04c0bc7a46d8" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
+  <project name="LineageOS/android_vendor_apn" path="vendor/apn" revision="main"/>
   <project name="LineageOS/android_vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" revision="522eeb16de339fb84e3e8326f686c80b4e8ace4b" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="qcom,qssi"/>
   <project name="LineageOS/android_vendor_crowdin" path="vendor/crowdin" revision="208c135c86f7bfc67621bda9d3c358a9b4e1079b" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
   <project name="LineageOS/android_vendor_qcom_opensource_agm" path="hardware/qcom-caf/sm8450/audio/agm" revision="10bbf423e45af236431889daced6517f66720238" upstream="lineage-23.0-caf-sm8450" dest-branch="lineage-23.0-caf-sm8450" groups="qcom,waipio-vendor"/>
