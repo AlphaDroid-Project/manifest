@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="alpha" fetch="https://github.com/alphadroid-project/" revision="refs/heads/alpha-16.1"/>
-  <remote name="alpha-codeberg" fetch="https://codeberg.org/alphadroid-project/" revision="refs/heads/alpha-16.1"/>
-  <remote name="alpha-devices" fetch="https://github.com/alphadroid-devices" revision="refs/heads/alpha-16.1"/>
-  <remote name="alpha-gitlab" fetch="https://gitlab.com/alphadroid-project" revision="refs/heads/alpha-16.1"/>
-  
+
+  <remote  name="alpha"
+           fetch="https://github.com/alphadroid-project/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/alpha-16.1" />
+
+  <remote name="alpha-codeberg"
+           fetch="https://codeberg.org/alphadroid-project/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/alpha-16.1" />
+
+  <remote  name="alpha-gitlab"
+           fetch="https://gitlab.com/alphadroid-project"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/alpha-16.1" />
+
+  <remote  name="alpha-devices"
+           fetch="https://github.com/alphadroid-devices"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/alpha-16.1" />
+
   <project name="OTA" path="vendor/OTA" remote="alpha-devices" revision="902e5d08c5e6b59c3f88bbfc1f954711f4c59cd0" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1"/>
   <project name="bootable_recovery" path="bootable/recovery" remote="alpha" revision="de2db3f98c8d85c24dd391e28cdb682339bf7f16" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1" groups="pdk"/>
   <project name="build_make" path="build/make" remote="alpha" revision="ecdc8d3bc1d77dc0360ab7e1d94a9fefcea46edc" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1" groups="pdk,sysui-studio">
@@ -34,7 +54,8 @@
   <project name="packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="alpha" revision="4fbc8398c15317cdf9c4fd68cf16ae48c8050740" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1"/>
   <project name="packages_apps_GameSpace" path="packages/apps/GameSpace" remote="alpha" revision="ce20a367ee73573aae964b98bd7c41b177a11747" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1"/>
   <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="alpha" revision="3cc9964f3857fde4e1caaef1dc43001b398f0533" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1" groups="pdk-fs,sysui-studio,pdk-cw-tvc"/>
-  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="alpha" revision="077e2c93d68c338c02564073f0651a174847ed8a" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1" groups="pdk-fs,pdk-cw-tvc,sysui-studio"/>
+  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="alpha" groups="pdk-fs,pdk-cw-tvc,sysui-studio"/>
+  <project name="packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="alpha" groups="pdk-fs"/>
   <project name="packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="alpha" revision="e2340e58d71009b0eca0cad9eedfb1ccd3cd505c" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1"/>
   <project name="packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="alpha" groups="pdk-fs,sysui-studio,pdk-cw-tvc"/>
   <project name="packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="alpha" groups="pdk-fs,sysui-studio,pdk-cw-tvc"/>
