@@ -9,14 +9,14 @@
   <project name="LineageOS/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr/sm8750" revision="447107e0d0a4703bc1cc3b93c5910c40be802626" upstream="lineage-23.0-caf-sm8750" dest-branch="lineage-23.0-caf-sm8750" groups="qcom,pakala-vendor"/>
   <project name="LineageOS/android_external_ant-wireless_hidl" path="external/ant-wireless/hidl" revision="ce589dc08e4215b063bfac73eb7b9b52cf46d944" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="qcom,qssi"/>
   <project name="LineageOS/android_external_bash" path="external/bash" revision="1094f161361ad75af92c968da680f2f5b3cf752b" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
-  <project name="LineageOS/android_external_chromium-webview_patches" path="external/chromium-webview/patches" revision="5cb676d43f55c852399c818543e8ba8b2cd210da" upstream="main" dest-branch="main" groups="pdk">
-    <linkfile src="os_pickup.bp" dest="external/chromium-webview/Android.bp"/>
-    <linkfile src="README" dest="external/chromium-webview/README"/>
+  <project path="external/chromium-webview/patches" name="LineageOS/android_external_chromium-webview_patches" groups="pdk" revision="main" >
+    <linkfile src="os_pickup.bp" dest="external/chromium-webview/Android.bp" />
+    <linkfile src="README" dest="external/chromium-webview/README" />
   </project>
-  <project name="LineageOS/android_external_chromium-webview_prebuilt_arm" path="external/chromium-webview/prebuilt/arm" revision="6f94e76a960ac19563b2bf5898c5dc2fc0e16c40" upstream="main" dest-branch="main" groups="pdk"/>
-  <project name="LineageOS/android_external_chromium-webview_prebuilt_arm64" path="external/chromium-webview/prebuilt/arm64" revision="70d1609c90346cf4d1daeb37909e7854f6556af6" upstream="main" dest-branch="main" groups="pdk"/>
-  <project name="LineageOS/android_external_chromium-webview_prebuilt_x86" path="external/chromium-webview/prebuilt/x86" revision="84c74ff7aedaf4fc5ecae8d693214f5311eba642" upstream="main" dest-branch="main" groups="pdk"/>
-  <project name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" path="external/chromium-webview/prebuilt/x86_64" revision="69244c67f5fb359a1ed8db27e9ee55a31d03a480" upstream="main" dest-branch="main" groups="pdk"/>
+  <project path="external/chromium-webview/prebuilt/arm" name="LineageOS/android_external_chromium-webview_prebuilt_arm" groups="pdk" revision="main" />
+  <project path="external/chromium-webview/prebuilt/arm64" name="LineageOS/android_external_chromium-webview_prebuilt_arm64" groups="pdk" revision="main" />
+  <project path="external/chromium-webview/prebuilt/x86" name="LineageOS/android_external_chromium-webview_prebuilt_x86" groups="pdk" revision="main" />
+  <project path="external/chromium-webview/prebuilt/x86_64" name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" groups="pdk" revision="main" />
   <project name="LineageOS/android_external_exfatprogs" path="external/exfatprogs" revision="f2640cfd8c3369ea5412917e5474a2a95f01a693" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
   <project name="LineageOS/android_external_htop" path="external/htop" revision="ff411eb6f0b716294440dbb5b24a090a1ad67af9" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
   <project name="LineageOS/android_external_json-c" path="external/json-c" revision="47c830a245c7592c1836b3c9fe50915c089d4191" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="qcom,qssi"/>
