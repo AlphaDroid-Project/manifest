@@ -25,9 +25,9 @@
            sync-j="4"
            revision="refs/heads/alpha-16.1" />
 
-  <project name="OTA" path="vendor/OTA" remote="alpha-devices" revision="902e5d08c5e6b59c3f88bbfc1f954711f4c59cd0" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1"/>
-  <project name="bootable_recovery" path="bootable/recovery" remote="alpha" revision="de2db3f98c8d85c24dd391e28cdb682339bf7f16" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1" groups="pdk"/>
-  <project name="build_make" path="build/make" remote="alpha" revision="ecdc8d3bc1d77dc0360ab7e1d94a9fefcea46edc" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1" groups="pdk,sysui-studio">
+  <project name="OTA" path="vendor/OTA" remote="alpha-devices"/>
+  <project name="bootable_recovery" path="bootable/recovery" remote="alpha" groups="pdk"/>
+  <project name="build_make" path="build/make" remote="alpha" groups="pdk,sysui-studio">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
     <linkfile src="core" dest="build/core"/>
@@ -47,25 +47,25 @@
     <linkfile src="exynos/sepolicy.mk" dest="device/lineage/sepolicy/exynos/sepolicy.mk"/>
   </project>
   <project name="frameworks_base" path="frameworks/base" remote="alpha" revision="fec45d79a78a4f8d07ee16c555c9e6dacaa255bc" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1" groups="pdk-cw-fs,pdk-fs,sysui-studio"/>
-  <project name="hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="alpha" revision="7d86725b9b202b7ef43c4466ba73de6707ecf3cb" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1"/>
+  <project name="hardware_lineage_interfaces"/>
   <project name="manifest" path="manifest" remote="alpha"/>
   <project name="packages_apps_AlphaSettings" path="packages/apps/AlphaSettings" remote="alpha" revision="6e71e0a383fd89bfc06dd594c56dd7431a346ed8" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1"/>
-  <project name="packages_apps_Backgrounds" path="packages/apps/Backgrounds" remote="alpha" revision="cf7b00316c42e4c37e8aeba7802379d5ddb141a7" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1"/>
-  <project name="packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="alpha" revision="4fbc8398c15317cdf9c4fd68cf16ae48c8050740" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1"/>
-  <project name="packages_apps_GameSpace" path="packages/apps/GameSpace" remote="alpha" revision="ce20a367ee73573aae964b98bd7c41b177a11747" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1"/>
-  <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="alpha" revision="3cc9964f3857fde4e1caaef1dc43001b398f0533" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1" groups="pdk-fs,sysui-studio,pdk-cw-tvc"/>
-  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="alpha" groups="pdk-fs,pdk-cw-tvc,sysui-studio"/>
+  <project name="packages_apps_Backgrounds"/>
+  <project name="packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="alpha"/>
+  <project name="packages_apps_GameSpace" path="packages/apps/GameSpace" remote="alpha"/>
+  <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="alpha" groups="pdk-fs,sysui-studio,pdk-cw-tvc"/>
+  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="alpha" revision="28e6f24ce065e95b586a0a2e15fb067f7712c866" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1" groups="pdk-fs,pdk-cw-tvc,sysui-studio"/>
   <project name="packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="alpha" groups="pdk-fs"/>
-  <project name="packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="alpha" revision="e2340e58d71009b0eca0cad9eedfb1ccd3cd505c" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1"/>
+  <project name="packages_apps_SetupWizard" path="packages/apps/SetupWizard"/>
   <project name="packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="alpha" groups="pdk-fs,sysui-studio,pdk-cw-tvc"/>
   <project name="packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="alpha" groups="pdk-fs,sysui-studio,pdk-cw-tvc"/>
-  <project name="packages_apps_Updater" path="packages/apps/Updater" remote="alpha" revision="e557ff038c17f5c173a56608e346636efd6a9228" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1"/>
-  <project name="packages_services_OmniJaws" path="packages/services/OmniJaws" remote="alpha" revision="aedccd055968933275d71d4ca1484480ffebbe02" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1"/>
-  <project name="packages_services_Telecomm" path="packages/services/Telecomm" remote="alpha" revision="25d2c229e6247f2ba877c16f0e1813e841219c7f" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="system_core" path="system/core" remote="alpha" revision="5e628ccea14d33f0c75f1666401fb72d61192f79" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1" groups="pdk"/>
-  <project name="vendor_addons" path="vendor/addons" remote="alpha" revision="8f98990b438582e87d1e2231d67dccf1073425d3" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1"/>
-  <project name="vendor_alpha" path="vendor/alpha" remote="alpha" revision="034c1de6aceefe0b08b85c14d91b0c8500823a3c" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1"/>
-  <project name="vendor_pixel_gms" path="vendor/pixel/gms" remote="alpha-gitlab" revision="5bb06526d32a9a86b3f93f1b53ca21beeb225a2b" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1"/>
-  <project name="vendor_pixel_launcher" path="vendor/pixel/launcher" remote="alpha-gitlab" revision="42870e6449f833f4348627ded0c451412efe3c95" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1"/>
-  <project name="vendor_pixel_themepicker" path="vendor/pixel/themepicker" remote="alpha-gitlab" revision="4e67726a354abc0148fae0bc5a90e4bc21d10154" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1"/>
+  <project name="packages_apps_Updater" path="packages/apps/Updater"/>
+  <project name="packages_services_OmniJaws" path="packages/services/OmniJaws"/>
+  <project name="packages_services_Telecomm" path="packages/services/Telecomm" remote="alpha" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="system_core" path="system/core" remote="alpha" groups="pdk"/>
+  <project name="vendor_addons" path="vendor/addons" remote="alpha"/>
+  <project name="vendor_alpha" path="vendor/alpha" remote="alpha"/>
+  <project name="vendor_pixel_gms" path="vendor/pixel/gms" remote="alpha-gitlab"/>
+  <project name="vendor_pixel_launcher" path="vendor/pixel/launcher" remote="alpha-gitlab"/>
+  <project name="vendor_pixel_themepicker" path="vendor/pixel/themepicker" remote="alpha-gitlab"/>
 </manifest>
