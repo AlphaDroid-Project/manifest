@@ -47,6 +47,7 @@
     <linkfile src="atv/sepolicy.mk" dest="device/lineage/sepolicy/atv/sepolicy.mk"/>
     <linkfile src="exynos/sepolicy.mk" dest="device/lineage/sepolicy/exynos/sepolicy.mk"/>
   </project>
+  <project name="external_arm-optimized-routines" path="external/arm-optimized-routines" remote="alpha" groups="pdk"/>
   <project name="frameworks_base" path="frameworks/base" remote="alpha" revision="fec45d79a78a4f8d07ee16c555c9e6dacaa255bc" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1" groups="pdk-cw-fs,pdk-fs,sysui-studio"/>
   <project name="hardware_lineage_interfaces"/>
   <project name="manifest" path="manifest" remote="alpha"/>

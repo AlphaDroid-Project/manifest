@@ -17,7 +17,7 @@
   <!--<project name="crdroidandroid/android_bionic" path="bionic" remote="crdroid" revision="1159377522743928c1c66346bbaa3f6e00b09809" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk"/>-->
   <project name="crdroidandroid/android_bootable_deprecated-ota" path="bootable/deprecated-ota" remote="crdroid" revision="06e32ab2c09f94f8a123019c9adc42ad70c26e17" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk-cw"/>
   <project name="crdroidandroid/android_external_FadingEdgeLayout" path="external/FadingEdgeLayout" remote="crdroid" revision="0165827a1c0c7076faa236fb01dcd5f877595ecf" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0"/>
-  <project name="crdroidandroid/android_external_arm-optimized-routines" path="external/arm-optimized-routines" remote="crdroid" groups="pdk"/>
+  <!--<project name="crdroidandroid/android_external_arm-optimized-routines" path="external/arm-optimized-routines" remote="crdroid" groups="pdk"/>-->
   <project name="crdroidandroid/android_external_bouncycastle" path="external/bouncycastle" remote="crdroid" revision="a41d7dc3c033ec20b8b16e64869c46ce5c0ecf3f" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk"/>
   <project name="crdroidandroid/android_external_e2fsprogs" path="external/e2fsprogs" remote="crdroid" revision="7770116a244e96de9672eb8b7a8a1b44ba40ec91" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk"/>
   <project name="crdroidandroid/android_external_jemalloc-new" path="external/jemalloc_new" remote="crdroid" revision="50dcd0e19badc670c49ead9d0ea564edc8d0cbcf" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk"/>
