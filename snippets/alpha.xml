@@ -25,6 +25,7 @@
            sync-j="4"
            revision="refs/heads/alpha-16.1" />
 
+  <project name="bionic" path="bionic" remote="alpha" groups="pdk"/>
   <project name="OTA" path="vendor/OTA" remote="alpha-devices"/>
   <project name="bootable_recovery" path="bootable/recovery" remote="alpha" groups="pdk"/>
   <project name="build_make" path="build/make" remote="alpha" groups="pdk,sysui-studio">

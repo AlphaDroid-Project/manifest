@@ -14,7 +14,7 @@
            revision="refs/heads/16.0" />
 
   <project name="crdroidandroid/android_art" path="art" remote="crdroid" revision="0ddd2653591b27448643d2515b841082a0f08dd0" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk"/>
-  <project name="crdroidandroid/android_bionic" path="bionic" remote="crdroid" revision="1159377522743928c1c66346bbaa3f6e00b09809" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk"/>
+  <!--<project name="crdroidandroid/android_bionic" path="bionic" remote="crdroid" revision="1159377522743928c1c66346bbaa3f6e00b09809" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk"/>-->
   <project name="crdroidandroid/android_bootable_deprecated-ota" path="bootable/deprecated-ota" remote="crdroid" revision="06e32ab2c09f94f8a123019c9adc42ad70c26e17" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk-cw"/>
   <project name="crdroidandroid/android_external_FadingEdgeLayout" path="external/FadingEdgeLayout" remote="crdroid" revision="0165827a1c0c7076faa236fb01dcd5f877595ecf" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0"/>
   <project name="crdroidandroid/android_external_arm-optimized-routines" path="external/arm-optimized-routines" remote="crdroid" groups="pdk"/>
