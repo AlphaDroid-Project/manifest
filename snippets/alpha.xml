@@ -49,20 +49,20 @@
   </project>
   <project name="external_arm-optimized-routines" path="external/arm-optimized-routines" remote="alpha" groups="pdk"/>
   <project name="frameworks_base" path="frameworks/base" remote="alpha" revision="fec45d79a78a4f8d07ee16c555c9e6dacaa255bc" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1" groups="pdk-cw-fs,pdk-fs,sysui-studio"/>
-  <project name="hardware_lineage_interfaces"/>
+  <project name="hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="alpha"/>
   <project name="manifest" path="manifest" remote="alpha"/>
   <project name="packages_apps_AlphaSettings" path="packages/apps/AlphaSettings" remote="alpha" revision="6e71e0a383fd89bfc06dd594c56dd7431a346ed8" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1"/>
-  <project name="packages_apps_Backgrounds"/>
+  <project name="packages_apps_Backgrounds" path="packages/apps/Backgrounds" remote="alpha"/>
   <project name="packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="alpha"/>
   <project name="packages_apps_GameSpace" path="packages/apps/GameSpace" remote="alpha"/>
   <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="alpha" groups="pdk-fs,sysui-studio,pdk-cw-tvc"/>
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="alpha" revision="28e6f24ce065e95b586a0a2e15fb067f7712c866" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1" groups="pdk-fs,pdk-cw-tvc,sysui-studio"/>
   <project name="packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="alpha" groups="pdk-fs"/>
-  <project name="packages_apps_SetupWizard" path="packages/apps/SetupWizard"/>
+  <project name="packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="alpha"/>
   <project name="packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="alpha" groups="pdk-fs,sysui-studio,pdk-cw-tvc"/>
   <project name="packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="alpha" groups="pdk-fs,sysui-studio,pdk-cw-tvc"/>
-  <project name="packages_apps_Updater" path="packages/apps/Updater"/>
-  <project name="packages_services_OmniJaws" path="packages/services/OmniJaws"/>
+  <project name="packages_apps_Updater" path="packages/apps/Updater" remote="alpha"/>
+  <project name="packages_services_OmniJaws" path="packages/services/OmniJaws" remote="alpha"/>
   <project name="packages_services_Telecomm" path="packages/services/Telecomm" remote="alpha" groups="pdk-cw-fs,pdk-fs"/>
   <project name="system_core" path="system/core" remote="alpha" groups="pdk"/>
   <project name="vendor_addons" path="vendor/addons" remote="alpha"/>
