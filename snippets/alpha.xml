@@ -36,11 +36,11 @@
     <linkfile src="target" dest="build/target"/>
     <linkfile src="tools" dest="build/tools"/>
   </project>
-  <project name="build_soong" path="build/soong" remote="alpha" revision="ed083b8d7f7660c3028649c7ad46c8b80f3a06c4" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1" groups="pdk,tradefed,sysui-studio">
+  <project name="build_soong" path="build/soong" remote="alpha" groups="pdk,tradefed,sysui-studio">
     <linkfile src="root.bp" dest="Android.bp"/>
     <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
   </project>
-  <project name="device_alpha_sepolicy" path="device/alpha/sepolicy" remote="alpha" revision="a3d9bb8acfbf5fb230864f1ddc437ce60f4b7a6a" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1">
+  <project name="device_alpha_sepolicy" path="device/alpha/sepolicy" remote="alpha">
     <linkfile src="common/sepolicy.mk" dest="device/lineage/sepolicy/common/sepolicy.mk"/>
     <linkfile src="qcom/sepolicy.mk" dest="device/lineage/sepolicy/qcom/sepolicy.mk"/>
     <linkfile src="libperfmgr/sepolicy.mk" dest="lineage/alpha/sepolicy/libperfmgr/sepolicy.mk"/>
