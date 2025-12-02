@@ -56,7 +56,7 @@
   <project name="packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="alpha"/>
   <project name="packages_apps_GameSpace" path="packages/apps/GameSpace" remote="alpha"/>
   <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="alpha" groups="pdk-fs,sysui-studio,pdk-cw-tvc"/>
-  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="alpha" revision="28e6f24ce065e95b586a0a2e15fb067f7712c866" upstream="refs/heads/alpha-16.1" dest-branch="refs/heads/alpha-16.1" groups="pdk-fs,pdk-cw-tvc,sysui-studio"/>
+  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="alpha" groups="pdk-fs,pdk-cw-tvc,sysui-studio"/>
   <project name="packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="alpha" groups="pdk-fs"/>
   <project name="packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="alpha"/>
   <project name="packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="alpha" groups="pdk-fs,sysui-studio,pdk-cw-tvc"/>
