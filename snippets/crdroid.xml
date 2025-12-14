@@ -13,7 +13,7 @@
            sync-j="4"
            revision="refs/heads/16.0" />
 
-  <project name="crdroidandroid/android_art" path="art" remote="crdroid" revision="0ddd2653591b27448643d2515b841082a0f08dd0" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk"/>
+  <!--<project name="crdroidandroid/android_art" path="art" remote="crdroid" revision="0ddd2653591b27448643d2515b841082a0f08dd0" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk"/>-->
   <!--<project name="crdroidandroid/android_bionic" path="bionic" remote="crdroid" revision="1159377522743928c1c66346bbaa3f6e00b09809" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk"/>-->
   <project name="crdroidandroid/android_bootable_deprecated-ota" path="bootable/deprecated-ota" remote="crdroid" revision="06e32ab2c09f94f8a123019c9adc42ad70c26e17" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk-cw"/>
   <project name="crdroidandroid/android_external_FadingEdgeLayout" path="external/FadingEdgeLayout" remote="crdroid" revision="0165827a1c0c7076faa236fb01dcd5f877595ecf" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0"/>
@@ -23,7 +23,7 @@
   <project name="crdroidandroid/android_external_jemalloc-new" path="external/jemalloc_new" remote="crdroid" revision="50dcd0e19badc670c49ead9d0ea564edc8d0cbcf" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk"/>
   <project name="crdroidandroid/android_frameworks_av" path="frameworks/av" remote="crdroid" revision="202b988c54901716866b75818b0fa20341605349" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk,sysui-studio"/>
   <project name="crdroidandroid/android_frameworks_libs_systemui" path="frameworks/libs/systemui" remote="crdroid" revision="470cb15339bd2545f465321f29321b96c56d35bb" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk-cw-fs,pdk-fs,sysui-studio"/>
-  <project name="crdroidandroid/android_frameworks_native" path="frameworks/native" remote="crdroid" revision="f7a852f15c85dcb21a4a145babb71b3f6a1c0ca7" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk"/>
+  <!--<project name="crdroidandroid/android_frameworks_native" path="frameworks/native" remote="crdroid" revision="f7a852f15c85dcb21a4a145babb71b3f6a1c0ca7" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk"/>-->
   <project name="crdroidandroid/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="crdroid" revision="d2a9c8a55c0a5963a9129a05087242b89814f1f7" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk,sysui-studio"/>
   <project name="crdroidandroid/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="crdroid" revision="7f63bcd379a390fb2d72b3592e4748eddc626bfc" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk,sysui-studio"/>
   <project name="crdroidandroid/android_hardware_interfaces" path="hardware/interfaces" remote="crdroid" revision="e5741300780dbddfbaa79396c69f0bd22da2407a" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk,sysui-studio"/>
@@ -45,7 +45,7 @@
   <project name="crdroidandroid/android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="crdroid" revision="66456ac0aff70ddb0ffc8b454d42d8d3fdd64015" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk-cw-fs,pdk-fs"/>
   <project name="crdroidandroid/android_packages_modules_Wifi" path="packages/modules/Wifi" remote="crdroid" revision="d38d0383704e7aa7b33065aeeb7d351fcdb1b156" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk-cw-fs,pdk-fs,sysui-studio"/>
   <project name="crdroidandroid/android_packages_services_DeviceAsWebcam" path="packages/services/DeviceAsWebcam" remote="crdroid" revision="bdf05c8c94e73bdd19a4ceb2d28c051e74474bd4" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="crdroidandroid/android_packages_services_Telephony" path="packages/services/Telephony" remote="crdroid" revision="e8a290fcecd927b8409eb56c2324cd90acc22687" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk-cw-fs,pdk-fs"/>
+  <!--<project name="crdroidandroid/android_packages_services_Telephony" path="packages/services/Telephony" remote="crdroid" revision="e8a290fcecd927b8409eb56c2324cd90acc22687" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk-cw-fs,pdk-fs"/>-->
   <project name="crdroidandroid/android_system_bpf" path="system/bpf" remote="crdroid" revision="5115376b7e298b40ae96932a70da432860a0b47b" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk"/>
   <project name="crdroidandroid/android_system_keymaster" path="system/keymaster" remote="crdroid" revision="9a4d09fe742e434af0961832a053ad62b9b03d93" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk"/>
   <project name="crdroidandroid/android_system_libhidl" path="system/libhidl" remote="crdroid" revision="0cd6e82ac6180312e949eb36aa41ec5cf9cbc7cd" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk,sysui-studio"/>
