@@ -53,6 +53,7 @@
   <project name="manifest" path="manifest" remote="alpha"/>
   <project name="packages_apps_AlphaSettings" path="packages/apps/AlphaSettings" remote="alpha"/>
   <project name="packages_apps_Backgrounds" path="packages/apps/Backgrounds" remote="alpha"/>
+  <project name="packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="alpha" groups="pdk-cw-fs,pdk-fs"/>
   <project name="packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="alpha"/>
   <project name="packages_apps_GameSpace" path="packages/apps/GameSpace" remote="alpha"/>
   <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="alpha" groups="pdk-fs,sysui-studio,pdk-cw-tvc"/>
