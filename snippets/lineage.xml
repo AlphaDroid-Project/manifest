@@ -88,6 +88,7 @@
   <project name="LineageOS/android_packages_apps_Catapult" path="packages/apps/Catapult" revision="75fb593820fc40c3053cee1d0b3822e28ce64e3e" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
   <project name="LineageOS/android_packages_apps_DeskClock" path="packages/apps/DeskClock" revision="cd9326b480b4e61a57d430e6a0100291fc772826" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk-fs"/>
   <project name="LineageOS/android_packages_apps_Etar" path="packages/apps/Etar" revision="a776cef0698a5fba6a034f51e8e69f5be04da307" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
+  <project path="packages/apps/EuiccPolicy" name="LineageOS/android_packages_apps_EuiccPolicy" />
   <project name="LineageOS/android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" revision="be982943640cf105b87597c9992952d28944619e" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
   <project name="LineageOS/android_packages_apps_FMRadio" path="packages/apps/FMRadio" revision="7e89b012877f7cea109eca09dc3edb4739ea577e" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0"/>
   <project name="LineageOS/android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="c17bdc202747c36f8ba768958aea7fda969a10e1" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk-fs"/>
