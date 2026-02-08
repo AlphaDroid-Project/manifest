@@ -61,7 +61,7 @@
   <project name="LineageOS/android_system_chre" path="system/chre" revision="527e88b48e53b845a43f439aa9518a1eee59431f" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk"/>
   <project name="LineageOS/android_system_libziparchive" path="system/libziparchive" revision="dcfcb6dfb68fd552d2b8dd0ff9004427f374e9ae" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk"/>
   <project name="LineageOS/android_system_logging" path="system/logging" revision="04ca348572b3eca80a07b059d986cf67a5facaaf" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk"/>
-  <project name="LineageOS/android_system_media" path="system/media" revision="2170682deba192e823908dfc48ad99d5dec44d6d" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk"/>
+  <project name="LineageOS/android_system_media" path="system/media" revision="e1120728af257ee8963abf2a3b8e9f1009358014" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk"/>
   <project name="LineageOS/android_system_netd" path="system/netd" revision="4b8e3002bddbe11bab4e240cfa13efe66a50d8d5" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk"/>
   <project name="LineageOS/android_system_vold" path="system/vold" revision="5cbee1431fcd7e0b0174e0bea22a11145f1cf592" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk"/>
 
