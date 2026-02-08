@@ -52,6 +52,7 @@
   <project name="frameworks_av" path="frameworks/av" remote="alpha" groups="pdk,sysui-studio"/>
   <project name="frameworks_base" path="frameworks/base" remote="alpha" groups="pdk-cw-fs,pdk-fs,sysui-studio"/>
   <project name="frameworks_native" path="frameworks/native" remote="alpha" groups="pdk"/>
+  <project name="hardware_interfaces" path="hardware/interfaces" remote="alpha" groups="pdk,sysui-studio"/>
   <project name="hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="alpha"/>
   <project name="manifest" path="manifest" remote="alpha"/>
   <project name="packages_apps_AlphaSettings" path="packages/apps/AlphaSettings" remote="alpha"/>
