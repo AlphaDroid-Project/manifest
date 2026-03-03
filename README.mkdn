@@ -1,132 +1,51 @@
-![alt text][logo]
+## AlphaDroid ##
 
-[logo]:https://crdroid.net/img/logo.png "crDroid Android"
+AlphaDroid is a custom ROM for Android, based on LineageOS/crDroid, with a new look and some extra features and optimizations. Extra features are picked from other custom ROMs and adapted to our needs or implemented by us.
 
-## 1. Grabbing the source
+Credits:
 
-Repo is a tool provided by Google that simplifies using Git in the context of the Android source:
-- Repo docs: http://source.android.com/source/developing.html
-- Git docs: http://git-scm.com/book
+* Base:
+  * [crDroid Android](https://github.com/crDroidAndroid)
+  * [LineageOS](https://github.com/LineageOS)
 
-### 1.1 Installing dependencies and Repo
+* UI:
+  * [Bootleggers](https://github.com/bootleggersrom)
+  * [dotOS](https://github.com/dotos)
+  * [NusantaraProject](https://github.com/nusantaraproject-rom)
 
-Several packages are needed in order to build crDroid. Example (we are using Ubuntu):
+* Extras:
+  * [PixelOS](https://github.com/PixelOS-AOSP)
+  * [RisingOS-Revived](https://github.com/RisingOS-Revived)
+  * [VoltageOS](https://github.com/VoltageOS)
+  * [YAAP](https://github.com/yaap/)
+
+* Alpha logo and banners:
+  * [naokoshoto](https://github.com/naokoshoto)
+
+### Sync ###
+
 ```bash
-sudo apt install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git git-lfs gnupg gperf imagemagick lib32ncurses-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses6 libncurses-dev libsdl1.2-dev libssl-dev libwxgtk3.2-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev
-```
-(Some of those packages may need adjustment for your linux distribution)
+# Initialize local repository
+repo init -u https://github.com/alphadroid-project/manifest -b alpha-16.2 --git-lfs
 
-Install the Repo tool:
-```bash
-# create ~/bin and add to PATH for this session (or add to your shell profile)
-mkdir -p ~/bin
-export PATH=~/bin:$PATH
-
-# download Repo
-curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
-
-# make Repo executable
-chmod a+x ~/bin/repo
-```
-
-Tip: Add `export PATH=~/bin:$PATH` to `~/.bashrc` or your shell profile so Repo is available in future sessions.
-
-### 1.2 Initializing Repo
-
-Create a workspace and initialize the crDroid 16.0 manifest:
-```bash
-mkdir -p ~/crDroid
-cd ~/crDroid
-repo init -u https://github.com/crdroidandroid/android.git -b 16.0 --git-lfs --no-clone-bundle
-```
-
-Sync the source tree (may take a long time on first run):
-```bash
+# Sync
 repo sync
 ```
 
-Notes and useful flags:
-- To recover from interrupted syncs or to force a fresh copy:  
-  `repo sync --force-sync --no-tags --no-clone-bundle -j8` (adjust `-j` to match your bandwidth/CPUs).
-- Use `repo sync -c` to only sync the current branch per project (saves time/space) when appropriate.
+### Build ###
 
----
-
-## 2. Building
-
-Prepare the build environment:
 ```bash
-. build/envsetup.sh
+# Set up environment
+$ . build/envsetup.sh
+
+# Build the code using lunch + make
+$ lunch alpha_<device_codename>-<build_variant> && make bacon
+
+# Or just brunch it
+$ brunch <device_codename> # user builds
+$ brunch alpha_<device_codename>-<build_variant> # other variants
 ```
 
-Build using:
-```bash
-brunch <devicecodename>
-```
-(Replace `<devicecodename>` with your device codename, e.g. `caiman`, `lemonadep`, etc.)
+#### Build environment ####
 
-Troubleshooting tips:
-- Out-of-disk-space: ensure enough free space (Android tree can require 100+ GB).
-- If builds fail after repo sync, try `repo sync --force-sync` and a clean build: `mka clean` then rebuild.
-
----
-
-## 3. Contributions
-
-To submit changes or patches:
-- Fork the repository on GitHub, make your changes, and open a Pull Request against the appropriate branch.
-- We review PRs and merge them when appropriate.
-
----
-
-## 4. How to become an Official Maintainer
-
-1. Read and follow our rules and guidelines:
-   https://github.com/crdroidandroid/rules-and-guidelines
-2. If everything is in order, message Gabriel on Telegram:
-   https://telegram.me/gwolf2u
-
----
-
-## 5. crDroid features / overlays, translations and forum template
-
-### 5.1 crDroid overlays or flags
-Set overlays to the proper paths.
-
-Frameworks base:
-```text
-overlay/frameworks/base/core/res/res/values/config.xml
-```
-Example reference:
-https://github.com/crdroidandroid/android_frameworks_base/blob/16.0/core/res/res/values/cr_config.xml
-
-SystemUI:
-```text
-overlay/frameworks/base/packages/SystemUI/res/values/config.xml
-```
-Example reference:
-https://github.com/crdroidandroid/android_frameworks_base/blob/16.0/packages/SystemUI/res/values/cr_config.xml
-
----
-
-If you device supports blur but it is expensive to render, you should disable default blur with following prop:
-```text
-ro.surface_flinger.blur_disabled_by_default=true
-```
-
-If you see artifacts with blur, you can reduce blur rendering effect with following example overlays:  
-[Disable high performance transitions](https://github.com/crdroidandroid/android_device_xiaomi_sm6150-common/commit/a9f17d1197a9e7a6e383bddf9a05b4a3c32ebc8f)  
-[Reduce blur radius](https://github.com/crdroidandroid/android_device_xiaomi_sm6150-common/commit/8ed0ecd296e5b34304b40d5d71685c7b4de617cd)
-
-### 5.2 Build flags
-If your device cannot render blur at all, you should disable blur support by defining below in device.mk
-```text
-TARGET_SUPPORTS_BLUR := false
-```
-### 5.3 Translations
-We use Crowdin for translations. To help out see:
-https://github.com/crdroidandroid/crdroid_features#translations
-
-### 5.4 Forum template
-Ready to share your build? Use the forum post template:
-https://github.com/crdroidandroid/crdroid_features/blob/16.0/ForumPostTemplate
+If you need help to create a build environment, you can check crDroid instructions [here](https://github.com/crdroidandroid/android).
