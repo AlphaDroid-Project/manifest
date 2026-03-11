@@ -4,20 +4,15 @@ AlphaDroid is a custom ROM for Android, based on LineageOS/crDroid, with a new l
 
 Credits:
 
-* Base:
-  * [crDroid Android](https://github.com/crDroidAndroid)
   * [LineageOS](https://github.com/LineageOS)
+  * [crDroid Android](https://github.com/crDroidAndroid)
 
-* UI:
-  * [Bootleggers](https://github.com/bootleggersrom)
-  * [dotOS](https://github.com/dotos)
-  * [NusantaraProject](https://github.com/nusantaraproject-rom)
-
-* Extras:
+  * [AxiomOS](https://github.com/AxionAOSP)
+  * [LumineDroid](https://github.com/LumineDroid)
   * [PixelOS](https://github.com/PixelOS-AOSP)
   * [RisingOS-Revived](https://github.com/RisingOS-Revived)
   * [VoltageOS](https://github.com/VoltageOS)
-  * [YAAP](https://github.com/yaap/)
+  * [YAAP](https://github.com/yaap)
 
 * Alpha logo and banners:
   * [naokoshoto](https://github.com/naokoshoto)
@@ -29,7 +24,7 @@ Credits:
 repo init -u https://github.com/alphadroid-project/manifest -b alpha-16.2 --git-lfs
 
 # Sync
-repo sync
+repo sync -c -d --no-clone-bundle --no-tags
 ```
 
 ### Build ###
@@ -38,12 +33,8 @@ repo sync
 # Set up environment
 $ . build/envsetup.sh
 
-# Build the code using lunch + make
-$ lunch alpha_<device_codename>-<build_variant> && make bacon
-
-# Or just brunch it
-$ brunch <device_codename> # user builds
-$ brunch alpha_<device_codename>-<build_variant> # other variants
+# Start the build
+$ brunch <device_codename>
 ```
 
 #### Build environment ####
