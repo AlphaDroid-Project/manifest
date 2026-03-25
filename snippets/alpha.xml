@@ -44,7 +44,7 @@
   <project name="device_alpha_sepolicy" path="device/alpha/sepolicy" remote="alpha">
     <linkfile src="common/sepolicy.mk" dest="device/lineage/sepolicy/common/sepolicy.mk"/>
     <linkfile src="qcom/sepolicy.mk" dest="device/lineage/sepolicy/qcom/sepolicy.mk"/>
-    <linkfile src="libperfmgr/sepolicy.mk" dest="lineage/alpha/sepolicy/libperfmgr/sepolicy.mk"/>
+    <linkfile src="libperfmgr/sepolicy.mk" dest="device/lineage/sepolicy/libperfmgr/sepolicy.mk"/>
     <linkfile src="atv/sepolicy.mk" dest="device/lineage/sepolicy/atv/sepolicy.mk"/>
     <linkfile src="exynos/sepolicy.mk" dest="device/lineage/sepolicy/exynos/sepolicy.mk"/>
   </project>
