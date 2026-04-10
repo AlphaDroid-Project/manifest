@@ -53,7 +53,7 @@
   <project name="LineageOS/android_hardware_google_pixel-sepolicy" path="hardware/google/pixel-sepolicy" revision="744b41b185caa19234c6a621600a796f1cc654f7" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="generic_fs,pdk-desktop,pixel"/>
   <project name="LineageOS/android_hardware_knowles_athletico_sound_trigger_hal" path="hardware/knowles/athletico/sound_trigger_hal" revision="fcbd955ac3fe571c22b7bd86570e72ca33ca834c" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="coral"/>
   <project name="LineageOS/android_hardware_libhardware" path="hardware/libhardware" revision="0c3e9e0fe76d30d32282c7e8fcdbddc393dc297b" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="pdk"/>
-  <project name="LineageOS/android_hardware_lineage_compat" path="hardware/lineage/compat" revision="f89552226d790a92d8ac36261a7af62c188f4ee6" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2"/>
+  <project name="LineageOS/android_hardware_lineage_compat" path="hardware/lineage/compat" revision="8da9bc3d00ba0f2d7a738efe543f208e33967113" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2"/>
   <project name="LineageOS/android_hardware_nxp_nfc" path="hardware/nxp/nfc" revision="367cff59c3a23d29c3978cf54ddc390b561c9c0a" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="pdk"/>
   <project name="LineageOS/android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" revision="50b2e0f5622ec4e92f95eb998bb7d53773598430" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="qcom">
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk"/>
