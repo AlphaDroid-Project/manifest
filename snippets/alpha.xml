@@ -57,6 +57,7 @@
   <project name="hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="alpha"/>
   <project name="manifest" path="manifest" remote="alpha"/>
   <project name="packages_apps_AlphaSettings" path="packages/apps/AlphaSettings" remote="alpha"/>
+  <project path="packages/apps/AlphaVisuals" name="packages_apps_AlphaVisuals" remote="alpha" />
   <project name="packages_apps_Backgrounds" path="packages/apps/Backgrounds" remote="alpha"/>
   <project name="packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="alpha" groups="pdk-cw-fs,pdk-fs"/>
   <project name="packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="alpha"/>
