@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="github"
-           fetch=".."
-           review="review.lineageos.org" />
-
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
@@ -13,10 +9,7 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-16.0.0_r4" />
 
-  <default revision="refs/heads/lineage-23.2"
-           remote="github"
-           sync-c="true"
-           sync-j="4" />
+  <include name="snippets/lineage.xml" />
 
   <contactinfo bugurl="go/repo-bug" />
 
@@ -921,7 +914,6 @@
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
 
-  <include name="snippets/lineage.xml" />
   <include name="snippets/crdroid.xml" />
   <include name="snippets/alpha.xml" />
 </manifest>
