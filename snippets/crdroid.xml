@@ -30,5 +30,4 @@
   <project name="crdroidandroid/android_system_sepolicy" path="system/sepolicy" remote="crdroid" revision="5abbb3b01b7b47ad13b78391d564b13cafeee3f7" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk"/>
   <project name="crdroidandroid/android_system_update_engine" path="system/update_engine" remote="crdroid" revision="ff62cc8fd81268209a83e37cb30fac8ff6b2306a" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk"/>
   <project name="crdroidandroid/android_system_vold" path="system/vold" remote="crdroid" revision="ebff65bce27ab917dd273f602cd858cd469536bb" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0" groups="pdk"/>
-  <project name="crdroidandroid/android_vendor_certification" path="vendor/certification" remote="crdroid" revision="d62a7ff1d362d823192667347c0163c9438f040f" upstream="refs/heads/16.0" dest-branch="refs/heads/16.0"/>
 </manifest>

@@ -77,6 +77,7 @@
   <project name="system_core" path="system/core" remote="alpha" groups="pdk"/>
   <project name="vendor_addons" path="vendor/addons" remote="alpha"/>
   <project name="vendor_alpha" path="vendor/alpha" remote="alpha"/>
+  <project name="vendor_certification" path="vendor/certification" remote="alpha" />
   <project path="vendor/pixel/gms" name="vendor_pixel_gms-16.2" remote="alpha-gitlab"/>
   <project path="vendor/pixel/launcher" name="vendor_pixel_launcher" remote="alpha-gitlab"/>
   <project path="vendor/pixel/sounds" name="vendor_pixel_sounds" remote="alpha-gitlab"/>
