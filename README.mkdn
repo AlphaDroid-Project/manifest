@@ -1,3 +1,7 @@
+<p align="center"><img src="./Manifests_Banner.png" alt="AlphaDroid AOSP Manifests"  width="100%"></p>
+
+---
+
 ## AlphaDroid ##
 
 AlphaDroid is a custom ROM for Android, based on LineageOS/crDroid, with a new look and some extra features and optimizations. Extra features are picked from other custom ROMs and adapted to our needs or implemented by us.
