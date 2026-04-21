@@ -13,6 +13,7 @@ Credits:
 
   * [AxiomOS](https://github.com/AxionAOSP)
   * [LumineDroid](https://github.com/LumineDroid)
+  * [Lunaris-AOSP](https://github.com/Lunaris-AOSP)
   * [PixelOS](https://github.com/PixelOS-AOSP)
   * [RisingOS-Revived](https://github.com/RisingOS-Revived)
   * [VoltageOS](https://github.com/VoltageOS)
