@@ -6,6 +6,7 @@
   
   <project name="LineageOS/android_bootable_deprecated-ota" path="bootable/deprecated-ota" revision="4b3b72782cd4bdb28a5b6a087bac441967320487" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="pdk-cw"/>
   <project name="LineageOS/android_development" path="development" revision="ef6a8bdc37653ff5d26dbd6b330eabb909114dba" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="developers,pdk-cw-fs,pdk-fs,sysui-studio"/>
+  <project name="LineageOS/android_device_generic_car" path="device/generic/car" groups="pdk" />
   <project name="LineageOS/android_device_generic_common" path="device/generic/common" revision="5c7f5fdd8fb02bc5853c145eeaa8a91668dae36b" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="pdk"/>
   <project name="LineageOS/android_device_generic_goldfish" path="device/generic/goldfish" revision="7b227068cbf159c07096bd1c5ec5c479c9a430a2" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="pdk"/>
   <project name="LineageOS/android_device_google_atv" path="device/google/atv" revision="af681d4bc9ca7ed9660899df324129fb034cd951" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="broadcom_pdk,device,generic_fs,pdk"/>
@@ -115,6 +116,7 @@
   <project name="LineageOS/android_packages_apps_Aperture" path="packages/apps/Aperture" revision="94e06c24cffc839e310de17de48e7809a3d6e97a" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2"/>
   <project name="LineageOS/android_packages_apps_AudioFX" path="packages/apps/AudioFX" revision="19b3cde3c516005fdabbe5e40c01616c413294d1" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2"/>
   <project name="LineageOS/android_packages_apps_Camelot" path="packages/apps/Camelot" revision="da1baf0d22560c76db8f00a011c500e4b97144df" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2"/>
+  <project name="LineageOS/android_packages_apps_Car_References" path="packages/apps/Car/References" groups="pdk-fs" />
   <project name="LineageOS/android_packages_apps_Car_Settings" path="packages/apps/Car/Settings" revision="181ef94b4f4f08f779871ad286339c65b9030357" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="pdk-cw-tvc,pdk-fs"/>
   <project name="LineageOS/android_packages_apps_Car_SystemUI" path="packages/apps/Car/SystemUI" revision="fbf595b739e32d4b86a2fa620506a4a2bc73bcdf" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="pdk-cw-tvc,pdk-fs"/>
   <project name="LineageOS/android_packages_apps_Catapult" path="packages/apps/Catapult" revision="521a06c2f9558fe045b03c69cf1a8542cbec4b5a" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2"/>
@@ -141,6 +143,7 @@
   <project name="LineageOS/android_packages_inputmethods_LeanbackIME" path="packages/inputmethods/LeanbackIME" revision="370ed1b78378b714c0e4ce1794cd3494a5e1321d" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="pdk-fs"/>
   <project name="LineageOS/android_packages_modules_Nfc" path="packages/modules/Nfc" revision="ff865d6888f53cff913d9c28b9893831174a46be" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LineageOS/android_packages_modules_UprobeStats" path="packages/modules/UprobeStats" revision="5625efa2e060adb42105889c0376824572d1190c" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="LineageOS/android_packages_modules_Virtualization" groups="pdk" path="packages/modules/Virtualization" />
   <project name="LineageOS/android_packages_modules_adb" path="packages/modules/adb" revision="9da8ca0085ddad64116d23e2a04addd785d807d2" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="pdk"/>
   <project name="LineageOS/android_packages_modules_common" path="packages/modules/common" revision="987c0721db72b408414bcdd491c8d921ffdfcc5e" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LineageOS/android_packages_providers_BlockedNumberProvider" path="packages/providers/BlockedNumberProvider" revision="74253b24073c7f699b7e7c8e37c41b3cfeffbb88" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="pdk-fs"/>
