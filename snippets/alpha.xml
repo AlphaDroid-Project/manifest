@@ -62,7 +62,7 @@
   <project name="packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="alpha" groups="pdk-cw-fs,pdk-fs"/>
   <project name="packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="alpha"/>
   <project name="packages_apps_GameSpace" path="packages/apps/GameSpace" remote="alpha"/>
-  <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="alpha" groups="pdk-fs,sysui-studio,pdk-cw-tvc"/>
+  <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="alpha" groups="pdk-fs,sysui-studio,pdk-cw-tvc" revision="alpha-16.2-wip"/>
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="alpha" groups="pdk-fs,pdk-cw-tvc,sysui-studio" revision="alpha-16.2-wip"/>
   <project name="packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="alpha" groups="pdk-fs"/>
   <project name="packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="alpha"/>
