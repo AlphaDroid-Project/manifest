@@ -34,6 +34,7 @@
   <remove-project name="crdroidandroid/android_vendor_addons" />
   <remove-project name="crdroidandroid/android_vendor_certification" />
   <remove-project name="crdroidandroid/android_vendor_crDroidOTA" />
+  <remove-project name="crdroidandroid/android_vendor_crdroid" />
   <remove-project name="crdroidandroid/android_vendor_themes" />
   <remove-project name="LineageOS/android_device_lineage_atv" />
   <remove-project name="LineageOS/android_device_lineage_car" />
