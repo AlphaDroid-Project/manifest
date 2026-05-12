@@ -72,6 +72,7 @@
   <project name="packages_apps_Updater" path="packages/apps/Updater" remote="alpha"/>
   <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="alpha" groups="pdk-fs"/>
   <project name="packages_modules_Permission" path="packages/modules/Permission" remote="alpha" groups="pdk-cw-fs,pdk-fs"/>
+  <project path="packages/services/AxQuickLook" name="packages_services_AxQuickLook" remote="alpha" />
   <project name="packages_services_OmniJaws" path="packages/services/OmniJaws" remote="alpha"/>
   <project name="packages_services_Telecomm" path="packages/services/Telecomm" remote="alpha" groups="pdk-cw-fs,pdk-fs"/>
   <project name="packages_services_Telephony" path="packages/services/Telephony" remote="alpha" groups="pdk-cw-fs,pdk-fs"/>
