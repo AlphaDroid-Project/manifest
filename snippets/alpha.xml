@@ -25,6 +25,7 @@
            sync-j="4"
            revision="refs/heads/alpha-16.2" />
 
+  <project path="axion-sdk" name="axion-sdk" remote="alpha" />
   <project name="art" path="art" remote="alpha" groups="pdk"/>
   <project name="bionic" path="bionic" remote="alpha" groups="pdk"/>
   <project name="OTA" path="vendor/OTA" remote="alpha-devices"/>
