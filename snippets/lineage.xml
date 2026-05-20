@@ -53,6 +53,7 @@
   <project path="packages/apps/SimpleDeviceConfig" name="LineageOS/android_packages_apps_SimpleDeviceConfig" />
   <project path="packages/apps/SimpleSettingsConfig" name="LineageOS/android_packages_apps_SimpleSettingsConfig" />
   <project path="packages/apps/Twelve" name="LineageOS/android_packages_apps_Twelve" />
+  <project path="packages/apps/ThemePicker" name="LineageOS/android_packages_apps_ThemePicker" groups="pdk-fs,sysui-studio,pdk-cw-tvc" />
 
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
   <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" />

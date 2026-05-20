@@ -68,7 +68,7 @@
   <project name="packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="alpha" groups="pdk-fs"/>
   <project name="packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="alpha"/>
   <project path="packages/apps/SimpleSettingsConfig" name="packages_apps_SimpleSettingsConfig" remote="alpha"/>
-  <project name="packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="alpha" groups="pdk-fs,sysui-studio,pdk-cw-tvc"/>
+  <project name="packages_apps_AlphaThemePicker" path="packages/apps/AlphaThemePicker" remote="alpha" groups="pdk-fs,sysui-studio,pdk-cw-tvc"/>
   <project name="packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="alpha" groups="pdk-fs,sysui-studio,pdk-cw-tvc"/>
   <project name="packages_apps_Updater" path="packages/apps/Updater" remote="alpha"/>
   <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="alpha" groups="pdk-fs"/>

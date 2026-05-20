@@ -22,7 +22,6 @@
   <remove-project name="crdroidandroid/android_packages_apps_Settings" />
   <remove-project name="crdroidandroid/android_packages_apps_SettingsIntelligence" />
   <remove-project name="crdroidandroid/android_packages_apps_SetupWizard" />
-  <remove-project name="crdroidandroid/android_packages_apps_ThemePicker" />
   <remove-project name="crdroidandroid/android_packages_apps_Updater" />
   <remove-project name="crdroidandroid/android_packages_apps_WallpaperPicker2" />
   <remove-project name="crdroidandroid/android_packages_inputmethods_LatinIME" />
