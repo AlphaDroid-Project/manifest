@@ -26,7 +26,6 @@
   <remove-project name="crdroidandroid/android_packages_apps_WallpaperPicker2" />
   <remove-project name="crdroidandroid/android_packages_inputmethods_LatinIME" />
   <remove-project name="crdroidandroid/android_packages_modules_Permission" />
-  <remove-project name="crdroidandroid/android_packages_services_AxQuickLook" />
   <remove-project name="crdroidandroid/android_packages_services_OmniJaws" />
   <remove-project name="crdroidandroid/android_packages_services_Telecomm" />
   <remove-project name="crdroidandroid/android_packages_services_Telephony" />
