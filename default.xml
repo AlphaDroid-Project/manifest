@@ -931,8 +931,5 @@
   <project path="trusty/vendor/google/aosp" name="trusty/vendor/google/aosp" groups="trusty,pdk" remote="aosp">
     <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
   </project>
-
-  <include name="snippets/crdroid.xml" />
-  <include name="snippets/remove.xml" />
   <include name="snippets/alpha.xml" />
 </manifest>

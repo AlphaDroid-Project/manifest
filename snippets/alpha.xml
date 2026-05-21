@@ -71,7 +71,6 @@
   <project name="packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="alpha"/>
   <project path="packages/apps/SimpleSettingsConfig" name="packages_apps_SimpleSettingsConfig" remote="alpha"/>
   <project name="packages_apps_WallpaperEffects" path="packages/apps/WallpaperEffects" remote="alpha" />
-  <project name="packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="alpha" groups="pdk-fs,sysui-studio,pdk-cw-tvc"/>
   <project name="packages_apps_Updater" path="packages/apps/Updater" remote="alpha"/>
   <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="alpha" groups="pdk-fs"/>
   <project name="packages_modules_Permission" path="packages/modules/Permission" remote="alpha" groups="pdk-cw-fs,pdk-fs"/>
@@ -87,4 +86,34 @@
   <project path="vendor/pixel/launcher" name="vendor_pixel_launcher" remote="alpha-gitlab"/>
   <project path="vendor/pixel/sounds" name="vendor_pixel_sounds" remote="alpha-gitlab"/>
   <project path="vendor/pixel/themepicker" name="vendor_pixel_themepicker" remote="alpha-gitlab"/>
+
+
+  <project name="external_bouncycastle" path="external/bouncycastle" groups="pdk" remote="alpha"/>
+  <project name="external_FadingEdgeLayout" path="external/FadingEdgeLayout" remote="alpha"/>
+  <project name="external_jemalloc_new" path="external/jemalloc_new" groups="pdk" remote="alpha"/>
+  <project name="external_wpa_supplicant_8" path="external/wpa_supplicant_8" groups="pdk" remote="alpha"/>
+  <project name="frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" groups="pdk,sysui-studio" remote="alpha"/>
+  <project name="frameworks_opt_telephony" path="frameworks/opt/telephony" groups="pdk,sysui-studio" remote="alpha"/>
+  <project name="hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" groups="qcom" remote="alpha" revision="16.0-caf-sm8150"/>
+  <project name="hardware_qcom_display" path="hardware/qcom-caf/sm8350/display" groups="qcom" remote="alpha" revision="16.0-caf-sm8350"/>
+  <project name="hardware_qcom_display" path="hardware/qcom-caf/sm8750/display/hal" groups="qcom" remote="alpha" revision="16.0-caf-sm8750"/>
+  <project name="kernel_configs" path="kernel/configs" groups="vts,pdk" remote="alpha"/>
+  <project name="libcore" path="libcore" groups="pdk" remote="alpha"/>
+  <project name="packages_apps_AppLocker" path="packages/apps/AppLocker" remote="alpha"/>
+  <project name="packages_apps_ColumbusService" path="packages/apps/ColumbusService" remote="alpha"/>
+  <project name="packages_apps_Dialer" path="packages/apps/Dialer" groups="pdk-fs" remote="alpha"/>
+  <project name="packages_apps_FaceUnlock" path="packages/apps/FaceUnlock" remote="alpha-gitlab"/>
+  <project name="packages_apps_LMOFreeform" path="packages/apps/LMOFreeform" remote="alpha"/>
+  <project name="packages_apps_Matlog" path="packages/apps/Matlog" remote="alpha"/>
+  <project name="packages_apps_Messaging" path="packages/apps/Messaging" groups="pdk-fs" remote="alpha"/>
+  <project name="packages_apps_OmniStyle" path="packages/apps/OmniStyle" remote="alpha"/>
+  <project name="packages_apps_Sandbox" path="packages/apps/Sandbox" remote="alpha"/>
+  <project name="packages_modules_Bluetooth" path="packages/modules/Bluetooth" groups="pdk" remote="alpha"/>
+  <project name="packages_modules_Connectivity" path="packages/modules/Connectivity" groups="pdk-cw-fs,pdk-fs" remote="alpha"/>
+  <project name="packages_modules_Wifi" path="packages/modules/Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="alpha"/>
+  <project name="packages_services_DeviceAsWebcam" path="packages/services/DeviceAsWebcam" groups="pdk-cw-fs,pdk-fs" remote="alpha"/>
+  <project name="system_sepolicy" path="system/sepolicy" groups="pdk" remote="alpha"/>
+  <project name="system_memory_libmeminfo" path="system/memory/libmeminfo" groups="pdk" remote="alpha"/>
+  <project name="system_update_engine" path="system/update_engine" groups="pdk" remote="alpha"/>
+  <project name="system_vold" path="system/vold" groups="pdk" remote="alpha"/>
 </manifest>
