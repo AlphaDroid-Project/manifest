@@ -72,6 +72,7 @@
   <project path="packages/apps/SimpleSettingsConfig" name="packages_apps_SimpleSettingsConfig" remote="alpha"/>
   <project name="packages_apps_WallpaperEffects" path="packages/apps/WallpaperEffects" remote="alpha" />
   <project name="packages_apps_Updater" path="packages/apps/Updater" remote="alpha"/>
+  <project name="packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="alpha" groups="pdk-cw-tvc,pdk-fs,sysui-studio"/>
   <project name="packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="alpha" groups="pdk-fs"/>
   <project name="packages_modules_Permission" path="packages/modules/Permission" remote="alpha" groups="pdk-cw-fs,pdk-fs"/>
   <project path="packages/services/QuickLook" name="packages_services_QuickLook" remote="alpha" />
