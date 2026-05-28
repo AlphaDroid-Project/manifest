@@ -92,6 +92,7 @@
   <project name="external_bouncycastle" path="external/bouncycastle" groups="pdk" remote="alpha"/>
   <project name="external_FadingEdgeLayout" path="external/FadingEdgeLayout" remote="alpha"/>
   <project name="external_jemalloc_new" path="external/jemalloc_new" groups="pdk" remote="alpha"/>
+  <project name="external_pffft" path="external/pffft" groups="pdk" remote="alpha" />
   <project name="external_steam-audio" path="external/steam-audio" remote="alpha"/>
   <project name="external_wpa_supplicant_8" path="external/wpa_supplicant_8" groups="pdk" remote="alpha"/>
   <project name="frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" groups="pdk,sysui-studio" remote="alpha"/>
