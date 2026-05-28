@@ -173,7 +173,6 @@
   <project name="LineageOS/android_system_keymaster" path="system/keymaster" revision="014f121ba6bee1244078a06f8507d37ab02eca80" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="pdk"/>
   <project name="LineageOS/android_system_libziparchive" path="system/libziparchive" revision="646d9dbec9de55489feae57e7a344000efd8fc10" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="pdk"/>
   <project name="LineageOS/android_system_logging" path="system/logging" revision="e63321648d4f2cb7c437bd615366e8f8765ad2bc" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="pdk"/>
-  <project name="LineageOS/android_system_media" path="system/media" revision="57c4ee8b27f8b111cc761c5fbdbeb727406aa4e4" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="pdk"/>
   <project name="LineageOS/android_system_netd" path="system/netd" revision="796eaca5ab9dfdd87751c51bb71fa3f26c87d034" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="pdk"/>
   <project name="LineageOS/android_system_security" path="system/security" revision="c83e9ba35da1860529bdf7488fe15e29dba1da00" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="pdk"/>
   <project name="LineageOS/android_tools_extract-utils" path="tools/extract-utils" revision="667024d6ddaec1c450b1a4bc8186be201566f2d5" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2"/>
