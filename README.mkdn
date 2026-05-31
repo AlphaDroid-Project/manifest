@@ -10,8 +10,7 @@ Credits:
 
   * [LineageOS](https://github.com/LineageOS)
   * [crDroid Android](https://github.com/crDroidAndroid)
-
-  * [AxiomOS](https://github.com/AxionAOSP)
+  * [AxionOS](https://github.com/AxionAOSP)
   * [LumineDroid](https://github.com/LumineDroid)
   * [Lunaris-AOSP](https://github.com/Lunaris-AOSP)
   * [PixelOS](https://github.com/PixelOS-AOSP)
@@ -26,7 +25,7 @@ Credits:
 
 ```bash
 # Initialize local repository
-repo init -u https://github.com/alphadroid-project/manifest -b alpha-16.2-wip --git-lfs
+repo init -u https://github.com/alphadroid-project/manifest -b alpha-16.2 --git-lfs
 
 # Sync
 repo sync -c -d --no-clone-bundle --no-tags
