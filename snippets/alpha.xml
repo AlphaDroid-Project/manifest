@@ -60,6 +60,7 @@
   <project name="packages_apps_AlphaSettings" path="packages/apps/AlphaSettings" remote="alpha" />
   <project name="packages_apps_AlphaThemePicker" path="packages/apps/AlphaThemePicker" remote="alpha" groups="pdk-fs,sysui-studio,pdk-cw-tvc"/>
   <project path="packages/apps/AlphaVisuals" name="packages_apps_AlphaVisuals" remote="alpha" />
+  <project path="packages/apps/AxionFx" name="packages_apps_AxionFx" remote="alpha" />
   <project path="packages/apps/AxionWidgets" name="packages_apps_AxionWidgets" remote="alpha" />
   <project name="packages_apps_Backgrounds" path="packages/apps/Backgrounds" remote="alpha"/>
   <project name="packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="alpha" groups="pdk-cw-fs,pdk-fs"/>
@@ -88,7 +89,7 @@
   <project path="vendor/pixel/sounds" name="vendor_pixel_sounds" remote="alpha-gitlab"/>
   <project path="vendor/pixel/themepicker" name="vendor_pixel_themepicker" remote="alpha-gitlab"/>
 
-
+  <!-- crMirrors -->
   <project name="external_bouncycastle" path="external/bouncycastle" groups="pdk" remote="alpha"/>
   <project name="external_FadingEdgeLayout" path="external/FadingEdgeLayout" remote="alpha"/>
   <project name="external_jemalloc_new" path="external/jemalloc_new" groups="pdk" remote="alpha"/>
