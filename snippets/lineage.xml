@@ -50,6 +50,7 @@
   <project name="LineageOS/android_external_sqlite" path="external/sqlite" groups="pdk" />
   <project name="LineageOS/android_external_tinycompress" path="external/tinycompress" revision="c66e2713430ed2eae282451d55251d0aa8e1b7ef" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="pdk"/>
   <project name="LineageOS/android_external_unrar" path="external/unrar" revision="140cfb9e8fc984cab5060cd09983e6d33a2fae41" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2"/>
+  <project name="LineageOS/android_external_v4l2_codec2" path="external/v4l2_codec2" groups="pdk" />
   <project name="LineageOS/android_external_vim" path="external/vim" revision="f31199df8fca8148b61ae94bbfcb834021f5bdd9" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2"/>
   <project name="LineageOS/android_external_zstd" path="external/zstd" revision="b41f7c427a3f03a975ad382ea42e77e2787007c2" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2"/>
   <project name="LineageOS/android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" revision="8dac269cf2963d88a5e61d73f369764c8e21eb9c" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="pdk"/>
