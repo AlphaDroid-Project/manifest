@@ -46,6 +46,7 @@
     <linkfile src="atv/sepolicy.mk" dest="device/lineage/sepolicy/atv/sepolicy.mk"/>
     <linkfile src="exynos/sepolicy.mk" dest="device/lineage/sepolicy/exynos/sepolicy.mk"/>
   </project>
+  <project name="device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr/sm8550" remote="alpha" revision="alpha-16.2-caf-sm8550" groups="kailua-vendor,qcom"/>
   <project name="external_arm-optimized-routines" path="external/arm-optimized-routines" remote="alpha" groups="pdk"/>
   <project name="frameworks_av" path="frameworks/av" groups="pdk,sysui-studio" remote="alpha" />
   <project name="frameworks_base" path="frameworks/base" remote="alpha" groups="pdk-cw-fs,pdk-fs,sysui-studio"  />
