@@ -4,7 +4,6 @@
   <default remote="github" revision="refs/heads/lineage-23.2" sync-j="4" sync-c="true"/>
 
   <project name="LineageOS/android_bootable_deprecated-ota" path="bootable/deprecated-ota" revision="4b3b72782cd4bdb28a5b6a087bac441967320487" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="pdk-cw"/>
-  <project name="LineageOS/android_build_release" path="build/release" revision="d76088e515490325b6edd276ef167449fd71805a" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="pdk,tradefed,sysui-studio"/>
   <project name="LineageOS/android_development" path="development" revision="ef6a8bdc37653ff5d26dbd6b330eabb909114dba" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="developers,pdk-cw-fs,pdk-fs,sysui-studio"/>
   <project name="LineageOS/android_device_generic_car" path="device/generic/car" revision="1d1e612854393faa30b6de422716060feb897b37" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="pdk"/>
   <project name="LineageOS/android_device_generic_common" path="device/generic/common" revision="5c7f5fdd8fb02bc5853c145eeaa8a91668dae36b" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="pdk"/>

@@ -38,6 +38,7 @@
     <linkfile src="target" dest="build/target"/>
     <linkfile src="tools" dest="build/tools"/>
   </project>
+  <project name="build_release" path="build/release" remote="alpha" groups="pdk,tradefed,sysui-studio"/>
   <project name="build_soong" path="build/soong" remote="alpha" groups="pdk,tradefed,sysui-studio"/>
   <project name="device_alpha_sepolicy" path="device/alpha/sepolicy" remote="alpha">
     <linkfile src="common/sepolicy.mk" dest="device/lineage/sepolicy/common/sepolicy.mk"/>
