@@ -80,6 +80,7 @@
   <project name="packages_services_Telecomm" path="packages/services/Telecomm" remote="alpha" groups="pdk-cw-fs,pdk-fs"/>
   <project name="packages_services_Telephony" path="packages/services/Telephony" remote="alpha" groups="pdk-cw-fs,pdk-fs"/>
   <project name="packages_wallpapers_LivePicker" path="packages/wallpapers/LivePicker" remote="alpha" groups="pdk-fs"/>
+  <project name="prebuilts_extract-tools" path="prebuilts/extract-tools" remote="alpha" clone-depth="1"/>
   <project name="system_core" path="system/core" remote="alpha" groups="pdk"/>
   <project name="vendor_addons" path="vendor/addons" remote="alpha" />
   <project name="vendor_alpha" path="vendor/alpha" remote="alpha" />
