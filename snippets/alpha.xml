@@ -98,6 +98,22 @@
   <project name="external_wpa_supplicant_8" path="external/wpa_supplicant_8" groups="pdk" remote="alpha"/>
   <project name="frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" groups="pdk,sysui-studio" remote="alpha"/>
   <project name="frameworks_opt_telephony" path="frameworks/opt/telephony" groups="pdk,sysui-studio" remote="alpha"/>
+  <project name="hardware_qcom-caf_common" path="hardware/qcom-caf/common" groups="qcom" remote="alpha">
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk"/>
+    <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk"/>
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp"/>
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp"/>
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp"/>
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp"/>
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp"/>
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp"/>
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp"/>
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp"/>
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450-6.6/Android.bp"/>
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp"/>
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8650/Android.bp"/>
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8750/Android.bp"/>
+  </project>
   <project name="hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" groups="qcom" remote="alpha" revision="16.0-caf-sm8150"/>
   <project name="hardware_qcom_display" path="hardware/qcom-caf/sm8350/display" groups="qcom" remote="alpha" revision="16.0-caf-sm8350"/>
   <project name="hardware_qcom_display" path="hardware/qcom-caf/sm8550/display" groups="qcom" remote="alpha" revision="alpha-16.2-caf-sm8550"/>

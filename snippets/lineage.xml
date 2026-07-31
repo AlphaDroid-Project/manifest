@@ -59,22 +59,6 @@
   <project name="LineageOS/android_hardware_libhardware" path="hardware/libhardware" revision="0c3e9e0fe76d30d32282c7e8fcdbddc393dc297b" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="pdk"/>
   <project name="LineageOS/android_hardware_lineage_compat" path="hardware/lineage/compat" revision="98b61d00a7a414bf1e2e10577e5023874554c763" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2"/>
   <project name="LineageOS/android_hardware_nxp_nfc" path="hardware/nxp/nfc" revision="367cff59c3a23d29c3978cf54ddc390b561c9c0a" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="pdk"/>
-  <project name="LineageOS/android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" revision="6c12ae9a7cca1c2f6948c59358f0837d84c15585" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="qcom">
-    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk"/>
-    <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk"/>
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp"/>
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp"/>
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp"/>
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp"/>
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp"/>
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp"/>
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp"/>
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp"/>
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450-6.6/Android.bp"/>
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp"/>
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8650/Android.bp"/>
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8750/Android.bp"/>
-  </project>
   <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio" revision="1b40af4516a07de1c8dc9fb7ffd2b2c192247967" upstream="refs/heads/lineage-23.2" dest-branch="refs/heads/lineage-23.2" groups="pdk-qcom,qcom,qcom_audio"/>
   <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom-caf/msm8953/audio" revision="f9ff4f29d8f330a8a97c4d3b49de5d9f37ebcb8a" upstream="lineage-23.2-caf-msm8953" dest-branch="lineage-23.2-caf-msm8953" groups="msm8953,qcom"/>
   <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom-caf/msm8998/audio" revision="717b078e6fa14e118c281b6a4eb61a1322652611" upstream="lineage-23.2-caf-msm8998" dest-branch="lineage-23.2-caf-msm8998" groups="legacy-qcom,qcom"/>
