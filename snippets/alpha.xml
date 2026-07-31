@@ -100,6 +100,7 @@
   <project name="frameworks_opt_telephony" path="frameworks/opt/telephony" groups="pdk,sysui-studio" remote="alpha"/>
   <project name="hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" groups="qcom" remote="alpha" revision="16.0-caf-sm8150"/>
   <project name="hardware_qcom_display" path="hardware/qcom-caf/sm8350/display" groups="qcom" remote="alpha" revision="16.0-caf-sm8350"/>
+  <project name="hardware_qcom_display" path="hardware/qcom-caf/sm8550/display" groups="qcom" remote="alpha" revision="alpha-16.2-caf-sm8550"/>
   <project name="hardware_qcom_display" path="hardware/qcom-caf/sm8750/display/hal" groups="qcom" remote="alpha" revision="16.0-caf-sm8750"/>
   <project name="kernel_configs" path="kernel/configs" groups="vts,pdk" remote="alpha"/>
   <project name="libcore" path="libcore" groups="pdk" remote="alpha"/>
