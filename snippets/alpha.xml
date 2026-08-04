@@ -121,7 +121,6 @@
   <project name="hardware_qcom_display" path="hardware/qcom-caf/sm8750/display/hal" groups="qcom" remote="alpha" revision="16.0-caf-sm8750"/>
   <project name="kernel_configs" path="kernel/configs" groups="vts,pdk" remote="alpha"/>
   <project name="libcore" path="libcore" groups="pdk" remote="alpha"/>
-  <project name="packages_apps_AppLocker" path="packages/apps/AppLocker" remote="alpha"/>
   <project name="packages_apps_ColumbusService" path="packages/apps/ColumbusService" remote="alpha"/>
   <project name="packages_apps_Dialer" path="packages/apps/Dialer" groups="pdk-fs" remote="alpha"/>
   <project name="packages_apps_FaceUnlock" path="packages/apps/FaceUnlock" remote="alpha-gitlab"/>
