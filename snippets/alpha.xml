@@ -55,6 +55,8 @@
   <project name="frameworks_native" path="frameworks/native" remote="alpha" groups="pdk"/>
   <project name="hardware_interfaces" path="hardware/interfaces" remote="alpha" groups="pdk,sysui-studio"/>
   <project name="hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="alpha"/>
+  <!-- os_pickup_qssi.bp imports this namespace and is linkfiled onto every QSSI CAF variant. -->
+  <project name="hardware_pixelworks_interfaces" path="hardware/pixelworks/interfaces" remote="alpha" groups="qcom"/>
   <project name="manifest" path="manifest" remote="alpha" />
   <project name="packages_apps_AlphaSettings" path="packages/apps/AlphaSettings" remote="alpha-gitlab" />
   <project name="packages_apps_AlphaThemePicker" path="packages/apps/AlphaThemePicker" remote="alpha" groups="pdk-fs,sysui-studio,pdk-cw-tvc"/>
