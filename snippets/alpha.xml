@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="alpha"
+           fetch="https://github.com/alphadroid-project/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/alpha-17.0" />
+
+  <remote name="alpha-codeberg"
+           fetch="https://codeberg.org/alphadroid-project/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/alpha-17.0" />
+
+  <remote  name="alpha-gitlab"
+           fetch="https://gitlab.com/alphadroid-project"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/alpha-17.0" />
+
+  <remote  name="alpha-devices"
+           fetch="https://github.com/alphadroid-devices"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/alpha-17.0" />
+
+  <!-- lineage-sdk teardown: these do not come back. LineageParts is partially
+       imported into packages/apps/Settings; Profiles is dropped outright. -->
+  <remove-project name="LineageOS/android_lineage-sdk" />
+  <remove-project name="LineageOS/android_packages_apps_LineageParts" />
+  <remove-project name="LineageOS/android_packages_apps_Profiles" />
+  <remove-project name="LineageOS/android_vendor_lineage" />
+
+  <remove-project name="LineageOS/android" path="android" />
+  <remove-project name="LineageOS/android_device_lineage_sepolicy" />
+
+  <!-- Drop the LineageOS definitions we replace. Paths redefined below. -->
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <remove-project name="LineageOS/android_build" />
+  <remove-project name="LineageOS/android_build_soong" />
+  <remove-project name="LineageOS/android_packages_apps_SimpleSettingsConfig" />
+  <remove-project name="LineageOS/android_packages_apps_FlipFlap" />
+  <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
+  <remove-project name="LineageOS/android_packages_apps_Launcher3" />
+
+  <!-- Manifest (mirror) -->
+  <project name="manifest" path="manifest" remote="alpha" revision="alpha-17.0-gitlab" />
+
+  <!-- Platform -->
+  <project name="frameworks_base" path="frameworks/base" remote="alpha-gitlab"
+           groups="pdk-cw-fs,pdk-fs,sysui-studio" />
+
+  <project name="build_make" path="build/make" remote="alpha-gitlab" groups="pdk,sysui-studio">
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project name="build_soong" path="build/soong" remote="alpha-gitlab"
+           groups="pdk,tradefed,sysui-studio" />
+
+  <project name="hardware_pixelworks_interfaces" path="hardware/pixelworks/interfaces" remote="alpha" />
+
+  <!-- Replaces vendor/lineage, removed above. -->
+  <project name="vendor_alpha" path="vendor/alpha" remote="alpha-gitlab" />
+
+  <!-- Linkfiled back onto device/lineage/sepolicy so the LOS *.mk paths still resolve. -->
+  <project name="device_alpha_sepolicy" path="device/alpha/sepolicy" remote="alpha-gitlab">
+    <linkfile src="common/sepolicy.mk" dest="device/lineage/sepolicy/common/sepolicy.mk" />
+    <linkfile src="qcom/sepolicy.mk" dest="device/lineage/sepolicy/qcom/sepolicy.mk" />
+    <linkfile src="libperfmgr/sepolicy.mk" dest="device/lineage/sepolicy/libperfmgr/sepolicy.mk" />
+    <linkfile src="atv/sepolicy.mk" dest="device/lineage/sepolicy/atv/sepolicy.mk" />
+    <linkfile src="exynos/sepolicy.mk" dest="device/lineage/sepolicy/exynos/sepolicy.mk" />
+  </project>
+
+  <!-- Apps -->
+  <project name="packages_apps_Settings" path="packages/apps/Settings" remote="alpha-gitlab"
+           groups="pdk-fs,pdk-cw-tvc,sysui-studio" />
+  <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="alpha-gitlab"
+           groups="pdk-fs,sysui-studio,pdk-cw-tvc" />
+  <project name="packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="alpha-gitlab" />
+  <project name="packages_apps_SimpleSettingsConfig" path="packages/apps/SimpleSettingsConfig" remote="alpha-gitlab" />
+  <project name="packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="alpha-gitlab" />
+
+</manifest>

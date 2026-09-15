@@ -1,36 +1,44 @@
-LineageOS
-===========
+<p align="center"><img src="./Manifests_Banner.png" alt="AlphaDroid AOSP Manifests"  width="100%"></p>
 
-Getting started
----------------
+---
 
-To get started with Android/LineageOS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
+## AlphaDroid ##
 
-To initialize your local repository using the LineageOS trees, use a command like this:
+AlphaDroid is a custom ROM for Android, based on LineageOS/crDroid, with a new look and some extra features and optimizations. Extra features are picked from other custom ROMs and adapted to our needs or implemented by us.
+
+Credits:
+
+  * [LineageOS](https://github.com/LineageOS)
+  * [AxionOS](https://github.com/AxionAOSP)
+  * [crDroid Android](https://github.com/crDroidAndroid)
+  * [Lunaris-AOSP](https://github.com/Lunaris-AOSP)
+  * [PixelOS](https://github.com/PixelOS-AOSP)
+  * [VoltageOS](https://github.com/VoltageOS)
+  * [YAAP](https://github.com/yaap)
+
+* Alpha logo and banners:
+  * [naokoshoto](https://github.com/naokoshoto)
+
+### Sync ###
+
+```bash
+# Initialize local repository
+repo init -u https://github.com/alphadroid-project/manifest -b alpha-17.0-gitlab --git-lfs
+
+# Sync
+repo sync -c -d --no-clone-bundle --no-tags
 ```
-repo init -u https://github.com/LineageOS/android.git -b lineage-24.0 --git-lfs
+
+### Build ###
+
+```bash
+# Set up environment
+$ . build/envsetup.sh
+
+# Start the build
+$ brunch <device_codename>
 ```
-Then to sync up:
-```
-repo sync
-```
-Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions, by device.
 
+#### Build environment ####
 
-Submitting patches
-------------------
-Patches are always welcome! Please submit your patches via LineageOS Gerrit!
-
-Simply follow our guide on [how to submit patches](https://wiki.lineageos.org/submitting-patch-howto.html).
-
-To view the status of your and others' patches, visit [LineageOS Gerrit Code Review](https://review.lineageos.org/).
-
-
-Buildbot
---------
-
-All supported devices are built weekly and periodically as changes are committed to ensure the source trees remain buildable.
-
-You can view the current build statuses at [LineageOS Buildkite](https://buildkite.com/lineageos).
-
-Builds produced weekly by the buildbot can be downloaded from [LineageOS downloads](https://download.lineageos.org/).
+If you need help to create a build environment, you can check crDroid instructions [here](https://github.com/crdroidandroid/android).
