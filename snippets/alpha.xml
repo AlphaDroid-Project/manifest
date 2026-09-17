@@ -111,6 +111,5 @@
   <project path="vendor/gms" name="vendor_gms" remote="alpha-gitlab" />
   <project path="vendor/microg" name="vendor_microg" remote="alpha-gitlab" />
   <project path="vendor/pixeloverlays" name="vendor_pixeloverlays" remote="alpha" />
-  <project path="vendor/OTA" name="OTA" remote="alpha-devices" />
-
+  <project path="vendor/OTA" name="OTA" remote="alpha-devices" revision="refs/heads/main" />
 </manifest>
