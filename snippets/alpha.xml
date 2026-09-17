@@ -46,6 +46,7 @@
   <remove-project name="LineageOS/android_packages_apps_Launcher3" />
   <remove-project name="LineageOS/android_system_core" />
   <remove-project name="LineageOS/android_bootable_recovery" />
+  <remove-project name="LineageOS/android_packages_apps_Updater" />
 
   <!-- Manifest (mirror) -->
   <project name="manifest" path="manifest" remote="alpha" revision="alpha-17.0-gitlab" />
@@ -90,6 +91,7 @@
   <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="alpha-gitlab"
            groups="pdk-fs,sysui-studio,pdk-cw-tvc" />
   <project name="packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="alpha-gitlab" />
+  <project name="packages_apps_Updater" path="packages/apps/Updater" remote="alpha-gitlab" />
   <project name="packages_apps_SimpleSettingsConfig" path="packages/apps/SimpleSettingsConfig" remote="alpha-gitlab" />
   <project name="packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="alpha-gitlab" />
 
