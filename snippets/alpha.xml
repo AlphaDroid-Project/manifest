@@ -47,6 +47,7 @@
   <remove-project name="LineageOS/android_system_core" />
   <remove-project name="LineageOS/android_bootable_recovery" />
   <remove-project name="LineageOS/android_packages_apps_Updater" />
+  <remove-project name="LineageOS/android_packages_apps_ThemePicker" />
 
   <!-- Manifest (mirror) -->
   <project name="manifest" path="manifest" remote="alpha" revision="alpha-17.0-gitlab" />
