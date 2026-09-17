@@ -92,6 +92,11 @@
            groups="pdk-fs,sysui-studio,pdk-cw-tvc" />
   <project name="packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="alpha-gitlab" />
   <project name="packages_apps_Updater" path="packages/apps/Updater" remote="alpha-gitlab" />
+
+  <!-- createjson.py reads vendor/OTA/<device>.json at build time for the static device fields
+       (oem, dt, common-dt, kernel, support links). Pinned to alpha-16.2 until an alpha-17.0
+       branch is cut on alphadroid-devices/OTA; those fields do not change between releases. -->
+  <project name="OTA" path="vendor/OTA" remote="alpha-devices" revision="refs/heads/alpha-16.2" />
   <project name="packages_apps_SimpleSettingsConfig" path="packages/apps/SimpleSettingsConfig" remote="alpha-gitlab" />
   <project name="packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="alpha-gitlab" />
 
