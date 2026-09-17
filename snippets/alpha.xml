@@ -44,6 +44,7 @@
   <remove-project name="LineageOS/android_packages_apps_FlipFlap" />
   <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
   <remove-project name="LineageOS/android_packages_apps_Launcher3" />
+  <remove-project name="LineageOS/android_system_core" />
 
   <!-- Manifest (mirror) -->
   <project name="manifest" path="manifest" remote="alpha" revision="alpha-17.0-gitlab" />
@@ -63,6 +64,8 @@
 
   <project name="build_soong" path="build/soong" remote="alpha-gitlab"
            groups="pdk,tradefed,sysui-studio" />
+
+  <project name="system_core" path="system/core" remote="alpha-gitlab" groups="pdk" />
 
   <project name="hardware_pixelworks_interfaces" path="hardware/pixelworks/interfaces" remote="alpha" />
 
