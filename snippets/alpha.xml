@@ -28,7 +28,7 @@
   <project path="axion-sdk" name="axion-sdk" remote="alpha" />
   <project name="art" path="art" remote="alpha" groups="pdk"/>
   <project name="bionic" path="bionic" remote="alpha" groups="pdk"/>
-  <project name="OTA" path="vendor/OTA" remote="alpha-devices"/>
+  <project name="OTA" path="vendor/OTA" remote="alpha-devices" revision="refs/heads/main" />
   <project name="bootable_recovery" path="bootable/recovery" remote="alpha" groups="pdk"/>
   <project name="build_make" path="build/make" remote="alpha" groups="pdk,sysui-studio">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
