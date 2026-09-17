@@ -95,7 +95,7 @@
 
   <!-- createjson.py reads vendor/OTA/<device>.json at build time for the static device fields
        (oem, dt, common-dt, kernel, support links). -->
-  <project name="OTA" path="vendor/OTA" remote="alpha-devices" />
+  <project name="OTA" path="vendor/OTA" remote="alpha-devices" revision="refs/heads/main" />
   <project name="packages_apps_SimpleSettingsConfig" path="packages/apps/SimpleSettingsConfig" remote="alpha-gitlab" />
   <project name="packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="alpha-gitlab" />
 
