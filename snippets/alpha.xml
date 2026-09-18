@@ -99,4 +99,10 @@
   <project name="packages_apps_SimpleSettingsConfig" path="packages/apps/SimpleSettingsConfig" remote="alpha-gitlab" />
   <project name="packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="alpha-gitlab" />
 
+  <!-- GApps (TARGET_BUILD_PACKAGE=3) -->
+  <project name="vendor_pixel_gms-17" path="vendor/pixel/gms" remote="alpha-gitlab" />
+  <project name="vendor_pixel_launcher" path="vendor/pixel/launcher" remote="alpha-gitlab" />
+  <project name="vendor_pixel_sounds" path="vendor/pixel/sounds" remote="alpha-gitlab" />
+  <project name="vendor_pixel_themepicker" path="vendor/pixel/themepicker" remote="alpha-gitlab" />
+
 </manifest>
