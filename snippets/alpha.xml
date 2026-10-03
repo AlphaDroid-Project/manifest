@@ -47,6 +47,9 @@
   <remove-project name="LineageOS/android_system_core" />
   <remove-project name="LineageOS/android_bootable_recovery" />
   <remove-project name="LineageOS/android_packages_apps_Updater" />
+  <remove-project name="LineageOS/android_packages_apps_CellBroadcastReceiver" />
+  <remove-project name="LineageOS/android_packages_modules_Permission" />
+  <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
 
   <!-- Manifest (mirror) -->
   <project name="manifest" path="manifest" remote="alpha" revision="alpha-17.0-gitlab" />
@@ -92,6 +95,15 @@
            groups="pdk-fs,sysui-studio,pdk-cw-tvc" />
   <project name="packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="alpha-gitlab" />
   <project name="packages_apps_Updater" path="packages/apps/Updater" remote="alpha-gitlab" />
+
+  <!-- SettingsLib's apps outside Settings: each declares the AlphaStyle overlayable that the
+       object styles' overlays on it name. -->
+  <project name="packages_apps_CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver"
+           remote="alpha-gitlab" groups="pdk-cw-fs,pdk-fs" />
+  <project name="packages_modules_Permission" path="packages/modules/Permission"
+           remote="alpha-gitlab" groups="pdk-cw-fs,pdk-fs" />
+  <project name="packages_providers_MediaProvider" path="packages/providers/MediaProvider"
+           remote="alpha-gitlab" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
 
   <!-- createjson.py reads vendor/OTA/<device>.json at build time for the static device fields
        (oem, dt, common-dt, kernel, support links). -->
