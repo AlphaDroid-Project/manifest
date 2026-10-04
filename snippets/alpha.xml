@@ -50,6 +50,10 @@
   <remove-project name="LineageOS/android_packages_apps_CellBroadcastReceiver" />
   <remove-project name="LineageOS/android_packages_modules_Permission" />
   <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
+  <remove-project name="LineageOS/android_frameworks_av" />
+  <remove-project name="LineageOS/android_frameworks_native" />
+  <!-- Several sepolicy_vndr projects share this name, so remove this one by path. -->
+  <remove-project name="LineageOS/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr/sm8550" />
 
   <!-- Manifest (mirror) -->
   <project name="manifest" path="manifest" remote="alpha" revision="alpha-17.0-gitlab" />
@@ -57,6 +61,11 @@
   <!-- Platform -->
   <project name="frameworks_base" path="frameworks/base" remote="alpha-gitlab"
            groups="pdk-cw-fs,pdk-fs,sysui-studio" />
+
+  <!-- alpha-17.0 here; the OPlus camera work is on alpha-17.0-aston, which device manifests pin. -->
+  <project name="frameworks_av" path="frameworks/av" remote="alpha-gitlab" groups="pdk,sysui-studio" />
+  <project name="frameworks_native" path="frameworks/native" remote="alpha-gitlab"
+           groups="pdk,sysui-studio" />
 
   <project name="build_make" path="build/make" remote="alpha-gitlab" groups="pdk,sysui-studio">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -75,6 +84,10 @@
   <project name="bootable_recovery" path="bootable/recovery" remote="alpha-gitlab" groups="pdk" />
 
   <project name="hardware_pixelworks_interfaces" path="hardware/pixelworks/interfaces" remote="alpha" />
+
+  <project name="device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr/sm8550"
+           remote="alpha-gitlab" revision="refs/heads/alpha-17.0-caf-sm8550"
+           groups="qcom,kailua-vendor" />
 
   <!-- Replaces vendor/lineage, removed above. -->
   <project name="vendor_alpha" path="vendor/alpha" remote="alpha-gitlab" />
