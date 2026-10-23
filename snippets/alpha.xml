@@ -50,6 +50,7 @@
   <remove-project name="LineageOS/android_packages_apps_CellBroadcastReceiver" />
   <remove-project name="LineageOS/android_packages_modules_Permission" />
   <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
+  <remove-project name="LineageOS/android_packages_apps_SettingsIntelligence" />
   <remove-project name="LineageOS/android_frameworks_av" />
   <remove-project name="LineageOS/android_frameworks_native" />
   <!-- Several sepolicy_vndr projects share this name, so remove this one by path. -->
@@ -117,6 +118,8 @@
            remote="alpha-gitlab" groups="pdk-cw-fs,pdk-fs" />
   <project name="packages_providers_MediaProvider" path="packages/providers/MediaProvider"
            remote="alpha-gitlab" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
+  <project name="packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence"
+           remote="alpha-gitlab" groups="pdk-fs" />
 
   <!-- createjson.py reads vendor/OTA/<device>.json at build time for the static device fields
        (oem, dt, common-dt, kernel, support links). -->
