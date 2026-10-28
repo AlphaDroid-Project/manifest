@@ -103,6 +103,7 @@
   </project>
 
   <!-- Apps -->
+  <project name="packages_apps_AlphaVisuals" path="packages/apps/AlphaVisuals" remote="alpha-gitlab" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="alpha-gitlab"
            groups="pdk-fs,pdk-cw-tvc,sysui-studio" />
   <project name="packages_apps_Launcher3" path="packages/apps/Launcher3" remote="alpha-gitlab"
