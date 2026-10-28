@@ -93,6 +93,9 @@
   <!-- Replaces vendor/lineage, removed above. -->
   <project name="vendor_alpha" path="vendor/alpha" remote="alpha-gitlab" />
 
+  <!-- Axion's platform libraries, such as ax_compose, which device apps link. -->
+  <project name="axion-sdk" path="axion-sdk" remote="alpha-gitlab" />
+
   <!-- Linkfiled back onto device/lineage/sepolicy so the LOS *.mk paths still resolve. -->
   <project name="device_alpha_sepolicy" path="device/alpha/sepolicy" remote="alpha-gitlab">
     <linkfile src="common/sepolicy.mk" dest="device/lineage/sepolicy/common/sepolicy.mk" />
@@ -103,6 +106,7 @@
   </project>
 
   <!-- Apps -->
+  <project name="packages_apps_AlphaSettings" path="packages/apps/AlphaSettings" remote="alpha-gitlab" />
   <project name="packages_apps_AlphaVisuals" path="packages/apps/AlphaVisuals" remote="alpha-gitlab" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="alpha-gitlab"
            groups="pdk-fs,pdk-cw-tvc,sysui-studio" />
