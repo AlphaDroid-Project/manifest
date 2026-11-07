@@ -51,6 +51,7 @@
   <remove-project name="LineageOS/android_packages_modules_Permission" />
   <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
   <remove-project name="LineageOS/android_packages_apps_SettingsIntelligence" />
+  <remove-project name="platform/packages/modules/IntentResolver" />
   <remove-project name="LineageOS/android_frameworks_av" />
   <remove-project name="LineageOS/android_frameworks_native" />
   <!-- Several sepolicy_vndr projects share this name, so remove this one by path. -->
@@ -125,6 +126,9 @@
            remote="alpha-gitlab" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
   <project name="packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence"
            remote="alpha-gitlab" groups="pdk-fs" />
+  <!-- The share sheet, which declares the AlphaStyle overlayable for the styles' overlays. -->
+  <project name="packages_modules_IntentResolver" path="packages/modules/IntentResolver"
+           remote="alpha-gitlab" groups="pdk,sysui-studio" />
 
   <!-- createjson.py reads vendor/OTA/<device>.json at build time for the static device fields
        (oem, dt, common-dt, kernel, support links). -->
