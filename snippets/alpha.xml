@@ -54,6 +54,11 @@
   <remove-project name="LineageOS/android_packages_modules_IntentResolver" />
   <remove-project name="LineageOS/android_frameworks_av" />
   <remove-project name="LineageOS/android_frameworks_native" />
+  <!-- TvSettings needs lineage-sdk from 03bda3de6 ("Add advanced restart options"), which
+       AlphaDroid folds into the platform. AlphaDroid ships no TV builds, so it stays here. -->
+  <extend-project name="LineageOS/android_packages_apps_TvSettings"
+                  revision="6c2ba228172ac8a87289782c886802d0363b33d5"
+                  upstream="refs/heads/lineage-24.0" />
   <!-- Several sepolicy_vndr projects share this name, so remove this one by path. -->
   <remove-project name="LineageOS/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr/sm8550" />
 
