@@ -51,7 +51,7 @@
   <remove-project name="LineageOS/android_packages_modules_Permission" />
   <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
   <remove-project name="LineageOS/android_packages_apps_SettingsIntelligence" />
-  <remove-project name="platform/packages/modules/IntentResolver" />
+  <remove-project name="LineageOS/android_packages_modules_IntentResolver" />
   <remove-project name="LineageOS/android_frameworks_av" />
   <remove-project name="LineageOS/android_frameworks_native" />
   <!-- Several sepolicy_vndr projects share this name, so remove this one by path. -->
