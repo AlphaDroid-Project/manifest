@@ -120,6 +120,8 @@
            groups="pdk-fs,sysui-studio,pdk-cw-tvc" />
   <project name="packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="alpha-gitlab" />
   <project name="packages_apps_Updater" path="packages/apps/Updater" remote="alpha-gitlab" />
+  <!-- Quick Tap; vendor/alpha adds it when a device sets TARGET_SUPPORTS_QUICK_TAP. -->
+  <project name="packages_apps_ColumbusService" path="packages/apps/ColumbusService" remote="alpha-gitlab" />
 
   <!-- SettingsLib's apps outside Settings: each declares the AlphaStyle overlayable that the
        object styles' overlays on it name. -->
